@@ -45,6 +45,21 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_Swordsplosion,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,8,2.850000,1.9
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SM_WizardsPipe,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.50
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo2/Gear/Weapons/_Shared/DataTable_WeaponBalance_Unique_Indigo2.DataTable_WeaponBalance_Unique_Indigo2,DAHL_SMG_Oil&Spice,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.50
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_FireBallDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,21
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_HydraDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,36
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_IceSpikeDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,50
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_MagicMissileDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,20
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_LightningBlastDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,36
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_EruptionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,36
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_FissureDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,45
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_MeterorDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,120
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_CircleOfProtectionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,6.125
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_Unique_LowDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,25
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_Unique_MediumDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,50
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_Unique_HighDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,75
+
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerShieldDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,1000
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerClassModDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,75
 
 
 # Manual Transmission
