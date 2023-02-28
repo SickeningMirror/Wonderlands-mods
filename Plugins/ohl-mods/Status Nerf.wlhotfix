@@ -1,0 +1,7 @@
+SparkPatchEntry,(1,2,0,),Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Elemental/ElementalDamageScale/DataTable_Weapon_ElementalDamage.DataTable_Weapon_ElementalDamage,DamageScale_DOT,Fire_7_1FDBC8F84F8FC5AB340FF5A2F6380A54,0,,0.5
+SparkPatchEntry,(1,2,0,),Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Elemental/ElementalDamageScale/DataTable_Weapon_ElementalDamage.DataTable_Weapon_ElementalDamage,DamageScale_DOT,Shock_8_684654654B332D94359F79BEB2DB90AA,0,,0.5
+SparkPatchEntry,(1,2,0,),Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Elemental/ElementalDamageScale/DataTable_Weapon_ElementalDamage.DataTable_Weapon_ElementalDamage,DamageScale_DOT,Poison_14_FCB69C7740260C055C8D32B7E96603D1,0,,0.5
+SparkPatchEntry,(1,2,0,),Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Elemental/ElementalDamageScale/DataTable_Weapon_ElementalDamage.DataTable_Weapon_ElementalDamage,DamageScale_DOT,Cryo_10_FE2073AF44E3E00A723784B1D44C2D50,0,,0.5
+SparkPatchEntry,(1,2,0,),Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Elemental/ElementalDamageScale/DataTable_Weapon_ElementalDamage.DataTable_Weapon_ElementalDamage,DamageScale_DOT,DarkMagic_15_2500317646FAD2F4916D158835B29E83,0,,0.5
+
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,Jakobs,ElementalDamageMultiplierScale_80_D457807F45510F5C3D23D69C7D7C7964,0,,.4
