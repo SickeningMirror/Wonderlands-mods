@@ -145,7 +145,7 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Dahl/_Shared/_Design/_Unique/He
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Dahl/_Shared/_Design/_Unique/LiveWire/UIStat_RedText_LiveWire.UIStat_RedText_LiveWire,Text,0,,[Flavor]The lightning. It's good for you![/Flavor] [newline] (High chance to connect a chaining [Shock]lightning[/Shock] beam to enemies.  +20% melee damage, and every 2nd melee strike zaps the target.)
 
 # White Rider
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Dahl/_Shared/_Design/_Unique/WhiteRider/UIStat_RedText_WhiteRider.UIStat_RedText_WhiteRider,Text,0,,[Flavor]Putrefy, rot, spoil and fester.[/Flavor] [newline] (Single Beam mode has +200% damage, attaches to one enemy, and charges.  Dual Beam mode has -20% damage, does not need charging, and connects to 2 enemies.)
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Dahl/_Shared/_Design/_Unique/WhiteRider/UIStat_RedText_WhiteRider.UIStat_RedText_WhiteRider,Text,0,,[Flavor]Putrefy, rot, spoil and fester.[/Flavor] [newline] (Single Beam mode has +100% damage, attaches to one enemy, and charges.  Dual Beam mode has -20% damage, does not need charging, and connects to 2 enemies.)
 
 # Blazing Volley
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Hyperion/_Shared/_Design/_Unique/BlazingVolley/UIStat_RedText_BlazingVolley.UIStat_RedText_BlazingVolley,Text,0,,[Flavor]Burn down the walls that bind you to this cage.[/Flavor] [newline] (Charge up to fire a 6-round burst which has a chance to be homing.)
@@ -232,19 +232,19 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/ArcaneBolt/Names/UIStat_Re
 SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Barrelmaker/Names/UIStat_RedText_Barrelmaker.UIStat_RedText_Barrelmaker,Text,0,,[Flavor]I need your strongest barrels.[/Flavor] [newline] (Summons an exploding barrel on a fuse, also [bold]explodes[/bold] on hit.)
 
 # Buffmeister
-SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Names/UIStat_RedText_Buffmeister.UIStat_RedText_Buffmeister,Text,0,,[Flavor]AAAAAAAAAAAAAAAH.[/Flavor] [newline] (Also +98% movement speed on cast.)
+SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Names/UIStat_RedText_Buffmeister.UIStat_RedText_Buffmeister,Text,0,,[Flavor]AAAAAAAAAAAAAAAH.[/Flavor] [newline] (Also 15% movement speed on cast.)
 
 # Buffmeister [Ability]
-SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Names/UIStat_Buffmeister_Ability.UIStat_Buffmeister_Ability,Text,0,,Kchow! (+120% Ability Damage, +98.4% Ability Chance)
+SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Names/UIStat_Buffmeister_Ability.UIStat_Buffmeister_Ability,Text,0,,Kchow! (+60% Ability Damage, +50% Ability Crit Chance)
 
 # Buffmeister [Gun]
-SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Names/UIStat_Buffmeister_Gun.UIStat_Buffmeister_Gun,Text,0,,Pew! (+98% Handling/Accuracy/Recoil, +38.5% Fire Rate, +60% Reload Speed)
+SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Names/UIStat_Buffmeister_Gun.UIStat_Buffmeister_Gun,Text,0,,Pew! (+98% Handling/Accuracy/Recoil, +25% Fire Rate, +60% Reload Speed)
 
 # Buffmeister [Melee]
-SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Names/UIStat_Buffmeister_Melee.UIStat_Buffmeister_Melee,Text,0,,Bonk! (+120% Melee Damage)
+SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Names/UIStat_Buffmeister_Melee.UIStat_Buffmeister_Melee,Text,0,,Bonk! (+60% Melee Damage)
 
 # Buffmeister [Spell]
-SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Names/UIStat_Buffmeister_Spell.UIStat_Buffmeister_Spell,Text,0,,Zap! (+120% Spell Damage)
+SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Names/UIStat_Buffmeister_Spell.UIStat_Buffmeister_Spell,Text,0,,Zap! (+60% Spell Damage)
 
 # Dazzler
 SparkPatchEntry,(1,1,0,),/Game/Gear/SpellMods/_Unique/Dazzler/Names/UIStat_RedText_Dazzler.UIStat_RedText_Dazzler,Text,0,,[Flavor]You are fine.[/Flavor] [newline] (Sends out homing sticky orbs which shoot [Shock]lightning[/Shock] between each other.)
