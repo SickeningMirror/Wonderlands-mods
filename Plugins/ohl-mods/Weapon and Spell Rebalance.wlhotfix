@@ -20,6 +20,8 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SG_Sworderang,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.5
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SR_KaoKhan,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.8
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_Carrouser,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.8
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,PS_Gluttony,Custom_B_11_6D4E8C1140CC269ED614BC958ECB0E22,0,,0.5
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,SR_SkeepProd,Custom_A_10_6BE78EF448AB3F6F228BC7B266814C86,0,,0.45
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SM_BlazingVolley,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.7
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_PortableSawmill,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,8,1.260500,1.8
@@ -39,9 +41,7 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceSca
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_Unique_MediumDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,50
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_Unique_HighDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,75
 
-
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Dahl/_Shared/_Design/_Unique/WhiteRider/Parts/Part_SM_DAL_Mode_WhiteRider.Part_SM_DAL_Mode_WhiteRider,WeaponUseModeAttributeEffects,0,,((UseMode=(EWeaponUseMode=EWeaponUseMode_MAX),UseModeBitmask=3,AttributeEffects=((AttributeToModify=/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.85,BaseValueScale=1)))))
-
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerShieldDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,1000
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerClassModDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,75
 
@@ -69,7 +69,6 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Indigo3/Gear/Weapons/Shotgun/Hyperion/_S
 
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo1/Gear/Weapons/_Shared/DataTable_WeaponBalance_Unique_Indigo1.DataTable_WeaponBalance_Unique_Indigo1,VLA_HW_TwistedDelugeon,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2
 
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/Gear/Weapons/_Shared/DataTable_WeaponBalance_Unique_Indigo4.DataTable_WeaponBalance_Unique_Indigo4,TOR_AR_Vengeance,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.75
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SniperRifle,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,3
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,Shotgun,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,0.7
@@ -82,9 +81,13 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceSca
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerMeleeDamage_Blunt,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,72
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerMeleeDamage_Sword2H,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,99
 
+SparkPatchEntry,(1,2,0,),/Game/Gear/Melee/_Shared/_Design/GameplayAttributes/MeleeInitialization/DataTable_Melee_HiltMods.DataTable_Melee_HiltMods,HiltMod07_DurationToStoreDamage,Value,0,,(BaseValueConstant=5)
+
 #Mayhem Damage
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_DamageScalar,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.01
 
 SparkPatchEntry,(1,1,0,),/Game/GameData/Mayhem/MayhemModeData.MayhemModeData,Tiers.Tiers[4].BonusCatchup,0,,(BaseValueConstant=10.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)\
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSkillDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,210
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerCompanionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,22.5
+
+SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Shared/_Design/GameplayAttributes/SpellInitialization/DataTable_Spell_InitData.DataTable_Spell_InitData,Spell_Hydra,ExtraCharges_50_5A30DE1349BD7725006B94B2472BC48B,0,,0

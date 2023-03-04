@@ -91,7 +91,7 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Jakobs/_Shared/_Design/_Uniq
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Jakobs/_Shared/_Design/_Unique/Pookie/Names/UIStat_RedText_Pookie.UIStat_RedText_Pookie,Text,0,,[Flavor]Chum... p![/Flavor] [newline] (All effects on card.)
 
 # Gluttony
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Tediore/Shared/_Design/_Unique/Gluttony/UIStat_RedText_Gluttony.UIStat_RedText_Gluttony,Text,0,,[Flavor]Equivalent exchange.[/Flavor] [newline] (While below 49% health, shots and reload effect deal +100% damage.  Reload consumes all health above 49%.)
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Tediore/Shared/_Design/_Unique/Gluttony/UIStat_RedText_Gluttony.UIStat_RedText_Gluttony,Text,0,,[Flavor]Equivalent exchange.[/Flavor] [newline] (While below 49% health, shots and reload effect deal +50% damage.  Reload consumes all health above 49%.)
 
 # Boniface's Soul
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Tediore/Shared/_Design/_Unique/TheHost/UIStat_RedText_TheHost.UIStat_RedText_TheHost,Text,0,,[Flavor]Of course, there's always my way.[/Flavor] [newline] (Reload explosion spawns a ward-transfusion orb.)
