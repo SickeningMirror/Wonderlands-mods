@@ -29,7 +29,7 @@ SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Ranger/D
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Ranger/_Shared/_Design/SkillTree/Passives/Passive_06/SE_Ranger_06.SE_Ranger_06,AttributeEffects.AttributeEffects[0].ModifierType,0,,PreAdd
 
 ##BrrZerker
-SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,Passive_03_HealthRegenerationPercent,Value,0,,(BaseValueConstant=0.066666,DataTableValue=(DataTable=None,RowName="",ValueName=""))
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,Passive_03_HealthRegenerationPercent,Value,0,,(BaseValueConstant=0.0066666,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,Passive_09_PercentHealthGainedOnKill,Value,0,,(BaseValueConstant=0.0500,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,Passive_14_MaxHealth,Value,0,,(BaseValueConstant=0.0600,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 
