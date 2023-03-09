@@ -45,3 +45,5 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/Selective
 
 
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/HealthBalanceScalers/DataTable_DamageAndHealthScalers.DataTable_DamageAndHealthScalers,Player_HealthBase,Scaler_4_FE2B037B42E1F6E76E3AEBAFDCC8DB86,0,,160
+
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/Character/BPChar_Player.Default__BPChar_Player_C,Att_SlideSpeedMultiplier,0,,(Value=1.25,BaseValue=1.25)
