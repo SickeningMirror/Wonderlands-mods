@@ -8,13 +8,13 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vlado
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/PS/Att_Calc_Damage_WeaponPlayer_VLA_PS_UnderbarrelTaser.Att_Calc_Damage_WeaponPlayer_VLA_PS_UnderbarrelTaser:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,4
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/SR/Att_Calc_Damage_WeaponPlayer_VLA_SR_UnderbarrelRocket.Att_Calc_Damage_WeaponPlayer_VLA_SR_UnderbarrelRocket:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,24
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/SR/Att_Calc_Damage_WeaponPlayer_VLA_SR_UnderbarrelShotgun.Att_Calc_Damage_WeaponPlayer_VLA_SR_UnderbarrelShotgun:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,0.9
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_DrylsFury,Custom_A_10_6BE78EF448AB3F6F228BC7B266814C86,0,,0.15
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_DrylsFury,Custom_A_10_6BE78EF448AB3F6F228BC7B266814C86,0,,0.75
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_BreadSlicer,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.5
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_CrossGen,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.5
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,PS_Perceiver,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.5
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,PS_TheHost,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.5
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,PS_Message,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.5
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,PS_TheMessage,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.6
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SM_Shadowfire,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.3
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SM_BoreasBreath,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.5
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SG_Sworderang,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.5
@@ -89,7 +89,8 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/Melee/_Shared/_Design/GameplayAttributes/Mel
 #Mayhem Damage
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_DamageScalar,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.01
 
+SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_CashScalar,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.2
 SparkPatchEntry,(1,1,0,),/Game/GameData/Mayhem/MayhemModeData.MayhemModeData,Tiers.Tiers[4].BonusCatchup,0,,(BaseValueConstant=5.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)\
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSkillDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,210
-SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerCompanionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,22.5
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerCompanionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,15
 
