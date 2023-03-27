@@ -28,7 +28,7 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,PS_LiquidCooling,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SM_BlazingVolley,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.7
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_PortableSawmill,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,8,1.260500,1.8
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_PortableSawmill,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,8,1.260500,1.5
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_Swordsplosion,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,8,2.850000,1.9
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SM_WizardsPipe,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.50
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo2/Gear/Weapons/_Shared/DataTable_WeaponBalance_Unique_Indigo2.DataTable_WeaponBalance_Unique_Indigo2,DAHL_SMG_Oil&Spice,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.6
@@ -59,7 +59,7 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Balance/Spell_
 SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/Buffmeister/Balance/Spell_Buffmeister_StatBuffBalance.Spell_Buffmeister_StatBuffBalance,FireRate,Multiplier,0,,(BaseValueConstant=0.002226))
 
 # Manual Transmission
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/AssaultRifles/Vladof/_Shared/_Design/_Unique/ManualTransmission/Parts/Part_Barrel_ManualTrans.Part_Barrel_ManualTrans,InventoryAttributeEffects,0,,((AttributeToModify=GbxAttributeData'"/Game/Gear/Weapons/_Shared/_Design/WeaponAttributes/Att_BarrelType.Att_BarrelType"',ModifierType=OverrideBaseValue,ModifierValue=(BaseValueConstant=2)),(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.5)))
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/AssaultRifles/Vladof/_Shared/_Design/_Unique/ManualTransmission/Parts/Part_Barrel_ManualTrans.Part_Barrel_ManualTrans,InventoryAttributeEffects,0,,((AttributeToModify=GbxAttributeData'"/Game/Gear/Weapons/_Shared/_Design/WeaponAttributes/Att_BarrelType.Att_BarrelType"',ModifierType=OverrideBaseValue,ModifierValue=(BaseValueConstant=2)),(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.69)))
 
 # Blazing Volley
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Hyperion/_Shared/_Design/_Unique/BlazingVolley/Parts/Part_SM_HYP_Barrel_BlazingVolley.Part_SM_HYP_Barrel_BlazingVolley,InventoryAttributeEffects,0,,((AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.7)))
