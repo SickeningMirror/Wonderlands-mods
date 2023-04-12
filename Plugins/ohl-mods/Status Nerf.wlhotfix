@@ -5,3 +5,4 @@ SparkPatchEntry,(1,2,0,),Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/El
 SparkPatchEntry,(1,2,0,),Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Elemental/ElementalDamageScale/DataTable_Weapon_ElementalDamage.DataTable_Weapon_ElementalDamage,DamageScale_DOT,DarkMagic_15_2500317646FAD2F4916D158835B29E83,0,,0.5
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,Jakobs,ElementalDamageMultiplierScale_80_D457807F45510F5C3D23D69C7D7C7964,0,,.4
+
