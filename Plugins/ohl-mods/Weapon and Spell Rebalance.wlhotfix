@@ -132,7 +132,7 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/Shields/_Design/Balance/ShieldAug_Unique_Bal
 #set high
 SparkPatchEntry,(1,2,0,),/Game/GameData/Economy/Economy_ItemPrices.Economy_ItemPrices,UniversalPriceScaler,Price_2_550251FA4E5602605F7C6A98D2DCBDCF,0,,1.15
 #set low
-SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/Vending/DataTable_VendingRarityMarkup.DataTable_VendingRarityMarkup,StandardPoolMult,MarkupMultiplier_5_DEFBA5C84B12125A4E61249DE4F3E3E7,0,,1.25
+SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/Vending/DataTable_VendingRarityMarkup.DataTable_VendingRarityMarkup,StandardPoolMult,MarkupMultiplier_5_DEFBA5C84B12125A4E61249DE4F3E3E7,0,,1.40
 
 
 # The Maker Guaranteed Loot
