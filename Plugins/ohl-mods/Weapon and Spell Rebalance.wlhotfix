@@ -52,7 +52,7 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceSca
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_CircleOfProtectionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,6.125
 
 
-SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerShieldDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,300
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerShieldDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,150
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerClassModDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,1000
 
 ##BuffMeister Nerf
@@ -95,6 +95,8 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceSca
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Melee/_Shared/_Design/GameplayAttributes/MeleeInitialization/DataTable_Melee_HiltMods.DataTable_Melee_HiltMods,HiltMod07_DurationToStoreDamage,Value,0,,(BaseValueConstant=3)
 
+
+
 #Mayhem
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_DamageScalar,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,.01
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_LuckScalar,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.025
@@ -112,7 +114,7 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModife
 SparkPatchEntry,(1,1,0,),/Game/GameData/Mayhem/StatusEffect/SE_Mayhem_Enemy_CoreModifier.SE_Mayhem_Enemy_CoreModifier,AttributeEffects.AttributeEffects[0],0,,((AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Mayhem/Attributes/Att_Calc_Mayhem_Enemy_DamageMultiplier.Att_Calc_Mayhem_Enemy_DamageMultiplier,AttributeInitializer=None,BaseValueScale=1.0)),(AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_SkillsPlayer.Att_Calc_Damage_SkillsPlayer,AttributeInitializer=None,BaseValueScale=1.0)))
 
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_CashScalar,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.2
-SparkPatchEntry,(1,1,0,),/Game/GameData/Mayhem/MayhemModeData.MayhemModeData,Tiers.Tiers[4].BonusCatchup,0,,(BaseValueConstant=5.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)\
+SparkPatchEntry,(1,1,0,),/Game/GameData/Mayhem/MayhemModeData.MayhemModeData,Tiers.Tiers[4].BonusCatchup,0,,(BaseValueConstant=5.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSkillDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,140
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerWeaponDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,6
 
@@ -132,7 +134,7 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/Shields/_Design/Balance/ShieldAug_Unique_Bal
 #set high
 SparkPatchEntry,(1,2,0,),/Game/GameData/Economy/Economy_ItemPrices.Economy_ItemPrices,UniversalPriceScaler,Price_2_550251FA4E5602605F7C6A98D2DCBDCF,0,,1.15
 #set low
-SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/Vending/DataTable_VendingRarityMarkup.DataTable_VendingRarityMarkup,StandardPoolMult,MarkupMultiplier_5_DEFBA5C84B12125A4E61249DE4F3E3E7,0,,1.40
+SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/Vending/DataTable_VendingRarityMarkup.DataTable_VendingRarityMarkup,StandardPoolMult,MarkupMultiplier_5_DEFBA5C84B12125A4E61249DE4F3E3E7,0,,1.4
 
 
 # The Maker Guaranteed Loot
