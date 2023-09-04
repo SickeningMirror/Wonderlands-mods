@@ -95,6 +95,32 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceSca
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Melee/_Shared/_Design/GameplayAttributes/MeleeInitialization/DataTable_Melee_HiltMods.DataTable_Melee_HiltMods,HiltMod07_DurationToStoreDamage,Value,0,,(BaseValueConstant=3)
 
+#Threads of Fate
+SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,ThreadOfFate,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=.35)
+
+# Timeskip
+SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,Timeskip,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=2.6)
+
+# Glacial Cascade
+#SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,GlacialCascade,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=2)
+
+# Marshmallow
+SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,Marshmallow,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=1.4)
+
+# Gelsphere
+SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,Gelsphere,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=2.6)
+
+
+#LaserHand
+SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,LaserHand,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=2)
+
+SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,FrozenOrb,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=2.5)
+# Gelsphere
+SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,Gelsphere,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=2.6)
+# Sawblades
+SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,Sawblades,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=2.3)
+
+SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,BarrelMaker,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=8)
 
 
 #Mayhem
