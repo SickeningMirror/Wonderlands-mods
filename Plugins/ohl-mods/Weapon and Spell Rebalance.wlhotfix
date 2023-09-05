@@ -46,10 +46,10 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceSca
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_IceSpikeDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,50
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_MagicMissileDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,20
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_LightningBlastDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,36
-SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_EruptionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,36
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_EruptionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,72
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_FissureDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,45
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_MeterorDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,120
-SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_CircleOfProtectionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,6.125
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_CircleOfProtectionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,18
 
 
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerShieldDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,150
@@ -79,12 +79,12 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Indigo2/Gear/Weapons/Pistols/Torgue/_Sha
 # FaceStabber
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Indigo3/Gear/Weapons/Shotgun/Hyperion/_Shared/_Design/_Unique/FaceStabber/Parts/Part_SG_HYP_Barrel_FaceStab.Part_SG_HYP_Barrel_FaceStab,InventoryAttributeEffects,0,,((AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=.7)))	
 
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo1/Gear/Weapons/_Shared/DataTable_WeaponBalance_Unique_Indigo1.DataTable_WeaponBalance_Unique_Indigo1,VLA_HW_TwistedDelugeon,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo1/Gear/Weapons/_Shared/DataTable_WeaponBalance_Unique_Indigo1.DataTable_WeaponBalance_Unique_Indigo1,VLA_HW_TwistedDelugeon,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,HW_ChumsTwister,Custom_B_11_6D4E8C1140CC269ED614BC958ECB0E22,0,,0.5
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SniperRifle,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,3
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,Shotgun,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,0.7
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,Heavy,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,5.5
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,Heavy,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,10
 SparkPatchEntry,(1,2,0,),/Game/Gear/Melee/_Shared/_Design/GameplayAttributes/Melee_Initialization/DataTable_Melee_InitData.DataTable_Melee_InitData,Axe_Blade_01,Damage_20_7777AC4C4968F9E6395DCEB224C8C6D0,0,,1
 SparkPatchEntry,(1,2,0,),/Game/Gear/Melee/_Shared/_Design/GameplayAttributes/Melee_Initialization/DataTable_Melee_InitData.DataTable_Melee_InitData,Axe_Blade_02,Damage_20_7777AC4C4968F9E6395DCEB224C8C6D0,0,,1
 SparkPatchEntry,(1,2,0,),/Game/Gear/Melee/_Shared/_Design/GameplayAttributes/Melee_Initialization/DataTable_Melee_InitData.DataTable_Melee_Unique_InitData,Axe_Blade_03,Damage_20_7777AC4C4968F9E6395DCEB224C8C6D0,0,,1
