@@ -67,8 +67,9 @@ SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbaria
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Necromancer/DataTable_Necromancer_Values.DataTable_Necromancer_Values,Skill_LichForm,Scalar_2_E7D5116F4F7E39AF3CFCD998360C5643,0,,0.4
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Necromancer/DataTable_Necromancer_Values.DataTable_Necromancer_Values,Passive_03,Secondary_11_84A2134543364C50EC79C68B17F4BBB5,0,,0.01
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Necromancer/DataTable_Necromancer_Values.DataTable_Necromancer_Values,Passive_06,Primary_8_7144784543D12C00F7A08182E7FDEE36,0,,.75
+
 ##Blightcaller
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_10_CriticalHitChance,Value,0,,(BaseValueConstant=0.005,DataTableValue=(DataTable=None,RowName="",ValueName=""))
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_10_CriticalHitChance,Value,0,,(BaseValueConstant=0.003,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/SkillTree/Passives/Passive_10/SE_Shaman_10.SE_Shaman_10,AttributeEffects.AttributeEffects[0].ModifierType,0,,PreAdd
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_09_Movespeed,Value,0,,(BaseValueConstant=0.02,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 
