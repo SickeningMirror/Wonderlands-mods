@@ -160,6 +160,15 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.Da
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,BarrelMaker,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=8)
 
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo1/Gear/SpellMods/_Unique/_Shared/DataTable_Spell_Uniques_Indigo1.DataTable_Spell_Uniques_Indigo1,TideBreaker,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=2.5)
+
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo2/Gear/SpellMods/_Unique/_Shared/DataTable_Spell_Uniques_Indigo2.DataTable_Spell_Uniques_Indigo2,RippleHail,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=2.0)
+
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo2/Gear/SpellMods/_Unique/_Shared/DataTable_Spell_Uniques_Indigo2.DataTable_Spell_Uniques_Indigo2,GarlicBreath,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=3)
+
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo3/Gear/SpellMods/_Unique/_Shared/DataTable_Spell_Uniques_Indigo3.DataTable_Spell_Uniques_Indigo3,InstantAmbush,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=0.7)
+
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo3/Gear/SpellMods/_Unique/_Shared/DataTable_Spell_Uniques_Indigo3.DataTable_Spell_Uniques_Indigo3,IllmarinensWrath,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=1.8)
 
 #Mayhem
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_DamageScalar,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,.01
