@@ -200,7 +200,7 @@ SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/PatchDLC/Indigo3/Enemies/Smith/
 SparkPatchEntry,(1,2,0,),/Game/Gear/Shields/_Design/Balance/ShieldAug_Unique_BalanceData.ShieldAug_Unique_BalanceData,CursedWit,Secondary_1_62_F1E72F2542B441230290B388F4C494D1,0,,.25
 
 #set high
-SparkPatchEntry,(1,2,0,),/Game/GameData/Economy/Economy_ItemPrices.Economy_ItemPrices,UniversalPriceScaler,Price_2_550251FA4E5602605F7C6A98D2DCBDCF,0,,1.165
+SparkPatchEntry,(1,2,0,),/Game/GameData/Economy/Economy_ItemPrices.Economy_ItemPrices,UniversalPriceScaler,Price_2_550251FA4E5602605F7C6A98D2DCBDCF,0,,1.155
 #set low
 SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/Vending/DataTable_VendingRarityMarkup.DataTable_VendingRarityMarkup,StandardPoolMult,MarkupMultiplier_5_DEFBA5C84B12125A4E61249DE4F3E3E7,0,,1.4
 
