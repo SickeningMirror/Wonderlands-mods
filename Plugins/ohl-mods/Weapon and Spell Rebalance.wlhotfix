@@ -156,7 +156,7 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.Da
 # Gelsphere
 SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,Gelsphere,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=2.6)
 # Sawblades
-SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,Sawblades,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=2.3)
+SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,Sawblades,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=5)
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/SpellMods/_Unique/DataTable_Spell_Uniques.DataTable_Spell_Uniques,BarrelMaker,Damage_55_7777AC4C4968F9E6395DCEB224C8C6D0,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_Spell_Unique.Att_Calc_Damage_Spell_Unique,AttributeInitializer=None,BaseValueScale=8)
 
@@ -173,7 +173,7 @@ SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo3/Gear/SpellMods/_Unique/_Shared/D
 #Mayhem
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_DamageScalar,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,.01
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_LuckScalar,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.025
-SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_Health_FlatBonusPerLevel,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.06	
+SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_Health_FlatBonusPerLevel,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.09	
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_Health_ExponentialGrowth,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,1	
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,Overpower_Tier4_LevelEquivalency,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,6
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,Overpower_Tier3_LevelEquivalency,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,4	
@@ -192,11 +192,6 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceSca
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerWeaponDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,6
 
 
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Table_SimpleLootDropChances.Table_SimpleLootDropChances,Spells,Drop_Chances_2_2811F91D40768DBD4FEBB791F8286836,0,,0.15
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Table_SimpleLootDropChances.Table_SimpleLootDropChances,Rings,Drop_Chances_2_2811F91D40768DBD4FEBB791F8286836,0,,0.08
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Table_SimpleLootDropChances.Table_SimpleLootDropChances,Amulets,Drop_Chances_2_2811F91D40768DBD4FEBB791F8286836,0,,0.08
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Table_SimpleLootDropChances.Table_SimpleLootDropChances,Armor,Drop_Chances_2_2811F91D40768DBD4FEBB791F8286836,0,,0.16
-
 SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/PatchDLC/Indigo3/Enemies/Smith/_Shared/_Design/Balance/Table_Smith_Boss_Balance.Table_Smith_Boss_Balance,ShieldBattery_V1,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1
 SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/PatchDLC/Indigo3/Enemies/Smith/_Shared/_Design/Balance/Table_Smith_Boss_Balance.Table_Smith_Boss_Balance,ShieldBattery_V2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1
 SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/PatchDLC/Indigo3/Enemies/Smith/_Shared/_Design/Balance/Table_Smith_Boss_Balance.Table_Smith_Boss_Balance,ShieldBattery_V3,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1
@@ -205,7 +200,7 @@ SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/PatchDLC/Indigo3/Enemies/Smith/
 SparkPatchEntry,(1,2,0,),/Game/Gear/Shields/_Design/Balance/ShieldAug_Unique_BalanceData.ShieldAug_Unique_BalanceData,CursedWit,Secondary_1_62_F1E72F2542B441230290B388F4C494D1,0,,.25
 
 #set high
-SparkPatchEntry,(1,2,0,),/Game/GameData/Economy/Economy_ItemPrices.Economy_ItemPrices,UniversalPriceScaler,Price_2_550251FA4E5602605F7C6A98D2DCBDCF,0,,1.15
+SparkPatchEntry,(1,2,0,),/Game/GameData/Economy/Economy_ItemPrices.Economy_ItemPrices,UniversalPriceScaler,Price_2_550251FA4E5602605F7C6A98D2DCBDCF,0,,1.165
 #set low
 SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/Vending/DataTable_VendingRarityMarkup.DataTable_VendingRarityMarkup,StandardPoolMult,MarkupMultiplier_5_DEFBA5C84B12125A4E61249DE4F3E3E7,0,,1.4
 
