@@ -11,6 +11,7 @@ SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOf
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_30/Passive_KotC_30.Default__Passive_KotC_30_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,Attribute,0,,/Game/GameData/Melee/Att_Melee_Damage.Att_Melee_Damage
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_30/Passive_KotC_30.Default__Passive_KotC_30_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Melee Damage:[/skillbold] $VALUE$
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,AS4_Cooldown,Value,0,,(BaseValueConstant=25,DataTableValue=(DataTable=None,RowName="",ValueName=""))
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,AS3_Cooldown,Value,0,,(BaseValueConstant=21,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 
 # Decreasing the Wyvern's cooldowns
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,DragonCompanion_ClawAttackCooldown,Value,0,,(BaseValueConstant=3,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1)
@@ -88,6 +89,8 @@ SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Rogue/_Shared/_Design/SkillTree/
 SparkPatchEntry,(1,1,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/SelectiveAmnesia/Att_Calc_SelectiveAmnesia_SelfDamage.Att_Calc_SelectiveAmnesia_SelfDamage,((AttributeToModify=GbxAttributeData'"/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_SkillsPlayer"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=.00008)))	
 
 SparkPatchEntry,(1,2,0),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,HeadOfTheSnake,Primary_8_7144784543D12C00F7A08182E7FDEE36,0,,0.75
+
+SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Calamity,Primary_8_7144784543D12C00F7A08182E7FDEE36,0,,0.2
 
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/HealthBalanceScalers/DataTable_DamageAndHealthScalers.DataTable_DamageAndHealthScalers,Player_HealthBase,Scaler_4_FE2B037B42E1F6E76E3AEBAFDCC8DB86,0,,160
 
