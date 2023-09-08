@@ -10,7 +10,8 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vlado
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/SR/Att_Calc_Damage_WeaponPlayer_VLA_SR_UnderbarrelShotgun.Att_Calc_Damage_WeaponPlayer_VLA_SR_UnderbarrelShotgun:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,0.3
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_DrylsFury,Custom_A_10_6BE78EF448AB3F6F228BC7B266814C86,0,,0.6
 
-
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Balance/DataTable_Guns_EnchantmentParts.DataTable_Guns_EnchantmentParts,Guns_Reload_MeleeSingularity,Scalar_12_4F63E9EE4888345AF29DF9AABB5ADE6C,0,,2.0
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SpellKill_CritDamage/GPart_All_Guns_SpellKill_CritDamage.GPart_All_Guns_SpellKill_CritDamage,MinGameStage,0,,(BaseValueConstant=100,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_BreadSlicer,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_CrossGen,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.5
