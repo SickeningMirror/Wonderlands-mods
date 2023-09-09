@@ -3,7 +3,7 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vlado
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/HW/Att_Calc_Damage_WeaponPlayer_VLA_HW_UnderbarrelBoxRocket.Att_Calc_Damage_WeaponPlayer_VLA_HW_UnderbarrelBoxRocket:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,0.5
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/HW/Att_Calc_Damage_WeaponPlayer_VLA_HW_UnderbarrelBigMissile.Att_Calc_Damage_WeaponPlayer_VLA_HW_UnderbarrelBigMissile:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,4
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/AR/Att_Calc_Damage_WeaponPlayer_VLA_AR_UnderbarrelShotgun.Att_Calc_Damage_WeaponPlayer_VLA_AR_UnderbarrelShotgun:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,1
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/AR/Att_Calc_Damage_WeaponPlayer_VLA_AR_UnderbarrelGrenade.Att_Calc_Damage_WeaponPlayer_VLA_AR_UnderbarrelGrenade:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,15
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/AR/Att_Calc_Damage_WeaponPlayer_VLA_AR_UnderbarrelGrenade.Att_Calc_Damage_WeaponPlayer_VLA_AR_UnderbarrelGrenade:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,20
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/PS/Att_Calc_Damage_WeaponPlayer_VLA_PS_UnderbarrelMicromissile.Att_Calc_Damage_WeaponPlayer_VLA_PS_UnderbarrelMicromissile:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,6
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/PS/Att_Calc_Damage_WeaponPlayer_VLA_PS_UnderbarrelTaser.Att_Calc_Damage_WeaponPlayer_VLA_PS_UnderbarrelTaser:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,1
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/Vladof/SR/Att_Calc_Damage_WeaponPlayer_VLA_SR_UnderbarrelRocket.Att_Calc_Damage_WeaponPlayer_VLA_SR_UnderbarrelRocket:ValueResolver_SimpleMathValueResolver,ValueB.BaseValueConstant,0,,4
@@ -12,6 +12,9 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Balance/DataTable_Guns_EnchantmentParts.DataTable_Guns_EnchantmentParts,Guns_Reload_MeleeSingularity,Scalar_12_4F63E9EE4888345AF29DF9AABB5ADE6C,0,,2.0
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SpellKill_CritDamage/GPart_All_Guns_SpellKill_CritDamage.GPart_All_Guns_SpellKill_CritDamage,MinGameStage,0,,(BaseValueConstant=100,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
+
+
+
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_BreadSlicer,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_CrossGen,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.5
@@ -39,7 +42,7 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Dahl/_Shared/_Design/_Unique
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,SM_Livewire,Custom_B_11_6D4E8C1140CC269ED614BC958ECB0E22,0,,0.01
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SM_BlazingVolley,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.0
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_PortableSawmill,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,8,1.260500,1.1
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_Swordsplosion,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,8,2.850000,1.7
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_Swordsplosion,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,8,2.850000,1.4
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SM_WizardsPipe,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.50
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo2/Gear/Weapons/_Shared/DataTable_WeaponBalance_Unique_Indigo2.DataTable_WeaponBalance_Unique_Indigo2,DAHL_SMG_Oil&Spice,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.6
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_FireBallDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,21
@@ -51,9 +54,7 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceSca
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_FissureDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,45
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_MeterorDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,120
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSpell_CircleOfProtectionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,18
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,HW_BlueCake2,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.85
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,HW_LoveLeopard,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,HW_BlueCake,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.45
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SM_ShadowFire,Custom_A_10_6BE78EF448AB3F6F228BC7B266814C86,0,,0.01
 
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerShieldDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,150
@@ -191,7 +192,7 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModife
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,Tier4_StartingLevel,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,75	
 
 
-SparkPatchEntry,(1,1,0,),/Game/GameData/Mayhem/StatusEffect/SE_Mayhem_Enemy_CoreModifier.SE_Mayhem_Enemy_CoreModifier,AttributeEffects.AttributeEffects[0],0,,((AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Mayhem/Attributes/Att_Calc_Mayhem_Enemy_DamageMultiplier.Att_Calc_Mayhem_Enemy_DamageMultiplier,AttributeInitializer=None,BaseValueScale=1.0)),(AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_SkillsPlayer.Att_Calc_Damage_SkillsPlayer,AttributeInitializer=None,BaseValueScale=1.0)))
+SparkPatchEntry,(1,1,0,),/Game/GameData/Mayhem/Effect/SE_Mayhem_Enemy_CoreModifier.SE_Mayhem_Enemy_CoreModifier,AttributeEffects.AttributeEffects[0],0,,((AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Mayhem/Attributes/Att_Calc_Mayhem_Enemy_DamageMultiplier.Att_Calc_Mayhem_Enemy_DamageMultiplier,AttributeInitializer=None,BaseValueScale=1.0)),(AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Damage/Att_DamageDealtMultiplier.Att_DamageDealtMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_SkillsPlayer.Att_Calc_Damage_SkillsPlayer,AttributeInitializer=None,BaseValueScale=1.0)))
 
 SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_CashScalar,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.2
 SparkPatchEntry,(1,1,0,),/Game/GameData/Mayhem/MayhemModeData.MayhemModeData,Tiers.Tiers[4].BonusCatchup,0,,(BaseValueConstant=5.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000)
@@ -214,18 +215,28 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Loot/Vending/DataTable_VendingRarityMark
 
 # The Maker Guaranteed Loot
 SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Aspect_Maker_2.ItemPool_Boss_Aspect_Maker_2,Quantity,0,,(BaseValueConstant=2,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
+#override setting
+SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),/Game/Enemies/EndlessBoss/_Design/Character/TheMaker/BPChar_TheMaker.BPChar_TheMaker_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),/Game/Enemies/EndlessBoss/_Design/Character/TheMaker/BPChar_TheMaker.BPChar_TheMaker_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools,0,,(ItemPools=((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Aspect_Maker.ItemPool_Boss_Aspect_Maker"',PoolProbability=(BaseValueConstant=10,BaseValueScale=11),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=2.000000))),ItemPoolLists=(ItemPoolListData'/Game/GameData/Loot/EnemyPools/ItemPoolList_Boss_Maker.ItemPoolList_Boss_Maker',ItemPoolListData'/Game/GameData/Loot/EnemyPools/ItemPoolList_Boss_Daffodil.ItemPoolList_Boss_Daffodil'))
+SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),/Game/Enemies/EndlessBoss/_Design/Character/TheMaker/BPChar_TheMaker.BPChar_TheMaker_C:AIBalanceState_GEN_VARIABLE,TimeToSpawnLootOver,0,,3
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),/Game/GameData/Loot/EnemyPools/ItemPoolList_Boss_Maker.ItemPoolList_Boss_Maker,ItemPools.ItemPools[3].NumberOfTimesToSelectFromThisPool.BaseValueScale,0,,15
+SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),/Game/GameData/Loot/EnemyPools/ItemPoolList_Boss_Maker.ItemPoolList_Boss_Maker,ItemPools.ItemPools[4].NumberOfTimesToSelectFromThisPool.BaseValueScale,0,,15
+SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),/Game/GameData/Loot/EnemyPools/ItemPoolList_Boss_Maker.ItemPoolList_Boss_Maker,ItemPools.ItemPools[5].NumberOfTimesToSelectFromThisPool.BaseValueScale,0,,15
+SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),/Game/GameData/Loot/EnemyPools/ItemPoolList_Boss_Maker.ItemPoolList_Boss_Maker,ItemPools.ItemPools[6].NumberOfTimesToSelectFromThisPool.BaseValueScale,0,,15
 
 #Raid Bosses, Bro
 SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,TheMaker,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,4000
 SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,TheMaker_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,4000
 
 
-SparkCharacterLoadedEntry,(1,1,0,BPChar_Desert),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Desert,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1200
-SparkCharacterLoadedEntry,(1,1,0,BPChar_Desert),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Desert_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1200
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Desert),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Desert,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,600
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Desert),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Desert_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,600
 
 
-SparkCharacterLoadedEntry,(1,1,0,BPChar_Abyss),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Abyss,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1200
-SparkCharacterLoadedEntry,(1,1,0,BPChar_Abyss),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Abyss_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1200
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Abyss),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Abyss,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,2400
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Abyss),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Abyss_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,2400
 
 SparkCharacterLoadedEntry,(1,1,0,BPChar_Nature),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Nature,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1400
 SparkCharacterLoadedEntry,(1,1,0,BPChar_Nature),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Nature_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1400
