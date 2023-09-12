@@ -1,3 +1,6 @@
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerCompanionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,4
+
+
 
 ##Clawbringer
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_27/SE_KotC_Passive27_CritChance.SE_KotC_Passive27_CritChance,AttributeEffects.AttributeEffects[0].ModifierType,0,,PreAdd
@@ -61,6 +64,7 @@ SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Ranger/D
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Ranger/_Shared/_Design/SkillTree/Passives/Passive_06/SE_Ranger_06.SE_Ranger_06,AttributeEffects.AttributeEffects[0].ModifierType,0,,PreAdd
 
 ##BrrZerker
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,ActionSkill_NowWeSlass_Damage,Value,0,,(BaseValueConstant=1.2,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,Passive_03_HealthRegenerationPercent,Value,0,,(BaseValueConstant=0.0075,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,Passive_09_PercentHealthGainedOnKill,Value,0,,(BaseValueConstant=0.0400,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,Passive_14_MaxHealth,Value,0,,(BaseValueConstant=0.0600,DataTableValue=(DataTable=None,RowName="",ValueName=""))
