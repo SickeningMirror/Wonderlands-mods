@@ -151,7 +151,11 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Part
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SniperRifle,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,3
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,Shotgun,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,0.85
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,Heavy,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,10
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,AssaultRifle,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,1
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SMG,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,0.9
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,Pistol,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,1.8
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_DamageScale.DataTable_Weapon_DamageScale,AssaultRifle,Vladof_63_DBDCED3C4D3A2AAE4157EEA39EAB81DB,0,,1.2
+
 SparkPatchEntry,(1,2,0,),/Game/Gear/Melee/_Shared/_Design/GameplayAttributes/Melee_Initialization/DataTable_Melee_InitData.DataTable_Melee_InitData,Axe_Blade_01,Damage_20_7777AC4C4968F9E6395DCEB224C8C6D0,0,,1
 SparkPatchEntry,(1,2,0,),/Game/Gear/Melee/_Shared/_Design/GameplayAttributes/Melee_Initialization/DataTable_Melee_InitData.DataTable_Melee_InitData,Axe_Blade_02,Damage_20_7777AC4C4968F9E6395DCEB224C8C6D0,0,,1
 SparkPatchEntry,(1,2,0,),/Game/Gear/Melee/_Shared/_Design/GameplayAttributes/Melee_Initialization/DataTable_Melee_InitData.DataTable_Melee_Unique_InitData,Axe_Blade_03,Damage_20_7777AC4C4968F9E6395DCEB224C8C6D0,0,,1
