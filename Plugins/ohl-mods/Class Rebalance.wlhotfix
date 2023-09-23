@@ -85,6 +85,7 @@ SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/SkillTree/Passives/Passive_10/SE_Shaman_10.SE_Shaman_10,AttributeEffects.AttributeEffects[0].ModifierType,0,,PreAdd
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_09_Movespeed,Value,0,,(BaseValueConstant=0.02,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_06_DamageDealt,Value,0,,(BaseValueConstant=0.04,DataTableValue=(DataTable=None,RowName="",ValueName=""))
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_17_DamagMultiplier,Value,0,,(BaseValueConstant=0.5,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 
 
 #StabboMancer
