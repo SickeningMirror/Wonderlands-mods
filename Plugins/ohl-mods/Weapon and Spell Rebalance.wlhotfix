@@ -267,8 +267,4 @@ SparkCharacterLoadedEntry,(1,2,0,BPChar_AbyssAspect),Game/Enemies/EndlessBoss/_D
 
 SparkCharacterLoadedEntry,(1,2,0,BPChar_NatureAspect),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Nature,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1400
 SparkCharacterLoadedEntry,(1,2,0,BPChar_NatureAspect,Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Nature_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1400
-SparkCharacterLoadedEntry,(1,2,0,BPChar_NatureAspect),/Game/Enemies/EndlessBoss/_Design/Balance/Table_EndlessBoss_AttacksDmg.Table_Balance_EndlessBoss_AttackDMG,Nature_Slash,Multiplier,0,,1.5
-SparkCharacterLoadedEntry,(1,2,0,BPChar_NatureAspect),/Game/Enemies/EndlessBoss/_Design/Balance/Table_EndlessBoss_AttacksDmg.Table_Balance_EndlessBoss_AttackDMG,Nature_Bite,Multiplier,0,,1.5
-SparkCharacterLoadedEntry,(1,2,0,BPChar_NatureAspect),/Game/Enemies/EndlessBoss/_Design/Balance/Table_EndlessBoss_AttacksDmg.Table_Balance_EndlessBoss_AttackDMG,Nature_TailSwipe,Multiplier,0,,1.5
-SparkCharacterLoadedEntry,(1,2,0,BPChar_NatureAspect),/Game/Enemies/EndlessBoss/_Design/Balance/Table_EndlessBoss_AttacksDmg.Table_Balance_EndlessBoss_AttackDMG,Nature_Pounce,Multiplier,0,,1.5
 
