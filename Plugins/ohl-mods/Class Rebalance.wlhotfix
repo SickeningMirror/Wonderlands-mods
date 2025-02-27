@@ -86,6 +86,11 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_09_Movespeed,Value,0,,(BaseValueConstant=0.02,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_06_DamageDealt,Value,0,,(BaseValueConstant=0.04,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_17_DamageMultiplier,Value,0,,(BaseValueConstant=0.25,DataTableValue=(DataTable=None,RowName="",ValueName=""))
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_03_WardRestoration,Value,0,,(BaseValueConstant=0.03,DataTableValue=(DataTable=None,RowName="",ValueName=""))
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_12_MaxShield,Value,0,,(BaseValueConstant=0.25,DataTableValue=(DataTable=None,RowName="",ValueName=""))
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_12_MaxHealth,Value,0,,(BaseValueConstant=-1.002,DataTableValue=(DataTable=None,RowName="",ValueName=""))
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,ActionSkill_01_DamageStored,Value,0,,(BaseValueConstant=0.1,DataTableValue=(DataTable=None,RowName="",ValueName=""))
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,ActionSkill_02_Damage,Value,0,,(BaseValueConstant=0.21,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 
 
 #StabboMancer
@@ -94,6 +99,7 @@ SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Rogue/_Shared/_Design/SkillTree/
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Rogue/_Shared/_Design/SkillTree/Passives/Passive_02/Passive_Rogue_02.Default__Passive_Rogue_02_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Critical Hit Damage:[/skillbold] $VALUE$[newline][skillbold]Movement Speed:[/skillbold] $VALUE$
 
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Rogue/_Shared/_Design/SkillTree/Passives/Passive_02/SE_Rogue_02.SE_Rogue_02,AttributeEffects,0,,((AttributeData=GbxAttributeData'/Game/GameData/Attributes/Critical/Damage/Att_CriticalHitDamage_All.Att_CriticalHitDamage_All',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'/Game/PlayerCharacters/Rogue/_Shared/_Design/SkillTree/Passives/Passive_02/SE_Rogue_02.SE_Rogue_02:Mutator_OakPassiveAbilityAttributeEffectMutatorData'),(AttributeData=GbxAttributeData'/Game/GameData/Attributes/Character/Att_GroundSpeedScale.Att_GroundSpeedScale',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'/Game/PlayerCharacters/Rogue/_Shared/_Design/SkillTree/Passives/Passive_02/SE_Rogue_02.SE_Rogue_02:Mutator_OakPassiveAbilityAttributeEffectMutatorData'))
+SparkPatchEntry,(1,2,0,),Game/PlayerCharacters/_Shared/_Design/Balance/Rogue/DataTable_Balance_Rogue.DataTable_Balance_Rogue,Passive_05_DamageDealt,Value,0,,(BaseValueConstant=0.03,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 
 
 ##Selective Amnesia no longer hurts as much I think
@@ -105,6 +111,14 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/D
 
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/HealthBalanceScalers/DataTable_DamageAndHealthScalers.DataTable_DamageAndHealthScalers,Player_HealthBase,Scaler_4_FE2B037B42E1F6E76E3AEBAFDCC8DB86,0,,160
 
+#Better Blank Slate
+SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula,Primary_8_7144784543D12C00F7A08182E7FDEE36,0,,0.2
+SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula_AbilityScalars,Duration_4_991797B5420658C242A0EFAF04758565,0,,0.3
+SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula_AbilityScalars,Cooldown_25_3E22DCFF47514CF1F039088C917DEB34,0,,0.3
+SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula_AbilityScalars,Cooldown_25_3E22DCFF47514CF1F039088C917DEB34,0,,0.3
+SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula_AbilityScalars,Tertiary_14_E37033D045CF357045CCE0A20D6A91C2,0,,-0.3530
+SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula_AbilityPresentation,Tertiary_14_E37033D045CF357045CCE0A20D6A91C2,0,,0.30
+
 # Pandemecium
 #Chance
 SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Pandemecium,Scalar_2_E7D5116F4F7E39AF3CFCD998360C5643,0,,0.25
@@ -113,30 +127,10 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/D
 
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/Character/BPChar_Player.Default__BPChar_Player_C,Att_SlideSpeedMultiplier,0,,(Value=1.33,BaseValue=1.33)
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerClassModDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,1000
-
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/DataTable_SharedPlayer_SkillBalance.DataTable_SharedPlayer_SkillBalance,HeroStat_Wis,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.01
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Luck/DataTable_Luck_Base_LevelUp.DataTable_Luck_Base_LevelUp,BaseLuckFormula,InitialLuck_11_0B4875AB47A7171FF4FCC58060422ACA,0,,15
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Luck/DataTable_Luck_Base_LevelUp.DataTable_Luck_Base_LevelUp,BaseLuckFormula,IncreaseInitial_9_73B0E52041B13B21AF8C519EB1B55DCE,0,,6
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Luck/DataTable_Luck_Base_LevelUp.DataTable_Luck_Base_LevelUp,BaseLuckFormula,IncreaseDelta_10_4B84DEF6419475134B7D4591A7D7D2D4,0,,6
-# Maker Loot
-SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Aspect_Maker_2.ItemPool_Boss_Aspect_Maker_2,Quantity,0,,(BaseValueConstant=5,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
-
-# Dragon Lord (mission) Loot
-SparkCharacterLoadedEntry,(1,1,0,BPChar_FinalBossS2_Run),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_DragonLord_2.ItemPool_Boss_DragonLord_2,Quantity,0,,(BaseValueConstant=2,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
-
-# Dragon Lord (plot) Loot
-SparkCharacterLoadedEntry,(1,1,0,BPChar_FinalBossStage2),/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_DragonLord_2.ItemPool_Boss_DragonLord_2,Quantity,0,,(BaseValueConstant=2,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Colossus3_Runnable),/Game/Enemies/Colossus/_Design/Balance/Table_Colossus_Balance.Table_Colossus_Balance,Colossus1_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,35
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Colossus3_Runnable),/Game/Enemies/Colossus/_Design/Balance/Table_Colossus_Balance.Table_Colossus_Balance,Colossus2_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,35
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Colossus3_Runnable),/Game/Enemies/Colossus/_Design/Balance/Table_Colossus_Balance.Table_Colossus_Balance,Colossus3_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,35
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Colossus3_Runnable),/Game/Enemies/Colossus/_Design/Balance/Table_Colossus_Balance.Table_Colossus_Balance,Colossus1_PT2,HealthMultiplier_02_Secondary_12_9204082C4992E4200D005C8CBA622E49,0,,7
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Colossus3_Runnable),/Game/Enemies/Colossus/_Design/Balance/Table_Colossus_Balance.Table_Colossus_Balance,Colossus2_PT2,HealthMultiplier_02_Secondary_12_9204082C4992E4200D005C8CBA622E49,0,,7
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Colossus3_Runnable),/Game/Enemies/Colossus/_Design/Balance/Table_Colossus_Balance.Table_Colossus_Balance,Colossus3_PT2,HealthMultiplier_02_Secondary_12_9204082C4992E4200D005C8CBA622E49,0,,7
-
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Pigwart_PT2),Game/Enemies/Goblin/_Shared/_Design/Balance/Table_Balance_Goblin_Unique.Table_Balance_Goblin_Unique,PigWart_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,3
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Pigwart_PT2),Game/Enemies/Goblin/_Shared/_Design/Balance/Table_Balance_Goblin_Unique.Table_Balance_Goblin_Unique,PigWart_PT2,HealthMultiplier_02_Secondary_12_9204082C4992E4200D005C8CBA622E49,0,,3
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Pigwart_PT2),Game/Enemies/Goblin/_Shared/_Design/Balance/Table_Balance_Goblin_Unique.Table_Balance_Goblin_Unique,PigWart_PT2,HealthMultiplier_03_Tertiary_16_46D12ED24F464AF5278FAAA2927388E2,0,,3
 
 # nerfing environmental damage by 75%
 SparkPatchEntry,(1,1,0,),/Game/GameData/Mayhem/StatusEffect/SE_Mayhem_Player_CoreModifier.SE_Mayhem_Player_CoreModifier,AttributeEffects,0,,((AttributeData=GbxAttributeData'"/Game/GameData/Balance/Experience/Att_PlayerExpScale_Combat.Att_PlayerExpScale_Combat"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=1.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Mayhem/Attributes/Att_Calc_Mayhem_Player_XPMultiplier.Att_Calc_Mayhem_Player_XPMultiplier,AttributeInitializer=None,BaseValueScale=1.0)),(AttributeData=GbxAttributeData'"/Game/Pickups/Money/Att_CashPickupMultiplier.Att_CashPickupMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=1.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Mayhem/Attributes/Att_Calc_Mayhem_Player_CashMultiplier.Att_Calc_Mayhem_Player_CashMultiplier,AttributeInitializer=None,BaseValueScale=1.0)),(AttributeData=GbxAttributeData'"/Game/Pickups/Eridium/Att_EGCPickupMultiplier.Att_EGCPickupMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=1.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Mayhem/Attributes/Att_Calc_Mayhem_Player_EGCMultiplier.Att_Calc_Mayhem_Player_EGCMultiplier,AttributeInitializer=None,BaseValueScale=1.0)),(AttributeData=GbxAttributeData'"/Game/GameData/Attributes/DamageMultipliers/Att_DamageSourceReceiverMultiplier_Environmental.Att_DamageSourceReceiverMultiplier_Environmental"',ModifierType=ScaleSimple,BaseModifierValue=(BaseValueConstant=0.25,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute="",AttributeInitializer=None,BaseValueScale=1.0)))
@@ -150,129 +144,8 @@ SparkPatchEntry,(1,2,0,),/Game/GameData/Economy/Economy_MoonOrbs.Economy_MoonOrb
 
 SparkPatchEntry,(1,2,0,),/Game/Gear/Amulets/_Shared/_Design/GameplayAttributes/Tables/DataTable_Amulets_Init.DataTable_Amulets_Init,StatusDamage,Multiplier,0,,(BaseValueConstant=0.0056115,BaseValueScale=1)
 
-# OVERALL BOSS ATTACK DAMAGE
-
-# Salissa Geyser
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Naga_WaterGoddess_Run),/Game/Enemies/Naga/_Shared/_Design/Balance/Table_Damage_Naga_Uniques.Table_Damage_Naga_Uniques,WaterGoddess_Geyser,Multiplier_46_80DB035D40990764A852C490FCE2E692,0,,(ValueType=Float,DisabledValueModes=104,ValueFlags=1,ValueMode=Value,Range=(Value=0.100000,Variance=0.000000,EditMode=MinMax),AttributeInitializer=None,AttributeData=None,AttributeInitializationData=(BaseValueConstant=0.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000),BlackboardKey=(KeyName="",bRuntimeKey=False),Condition=None,Actor=None)
-
-# Knightmare
-SparkCharacterLoadedEntry,(1,1,0,BPChar_BoneArmy_Knightmare),/Game/Enemies/BoneArmy/_Unique/Knightmare/_Design/Damage/Damage_BoneArmy_Knightmare_360Wall.Default__Damage_BoneArmy_Knightmare_360Wall_C,DamageMultiplier,0,,(ValueType=Float,DisabledValueModes=104,ValueFlags=1,ValueMode=Value,Range=(Value=0.100000,Variance=0.000000,EditMode=MinMax),AttributeInitializer=None,AttributeData=None,AttributeInitializationData=(BaseValueConstant=0.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000),BlackboardKey=(KeyName="",bRuntimeKey=False),Condition=None,Actor=None)
-
-#Dryl Fireball
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Colossus2_Runnable),/Game/Enemies/Colossus/_Design/Balance/Table_Colossus_Damage.Table_Colossus_Damage,Fireball,Multiplier_46_80DB035D40990764A852C490FCE2E692,0,,(ValueType=Float,DisabledValueModes=104,ValueFlags=1,ValueMode=Value,Range=(Value=0.350000,Variance=0.000000,EditMode=MinMax),AttributeInitializer=None,AttributeData=None,AttributeInitializationData=(BaseValueConstant=0.000000,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.000000),BlackboardKey=(KeyName="",bRuntimeKey=False),Condition=None,Actor=None)
 
 
-#Kastor Skulls
-SparkCharacterLoadedEntry,(1,1,0,BPChar_SkeletonBoss),/Game/Enemies/SkeletonBoss/_Shared/_Design/Damage/Damage_SkeletonBoss_PoisonBall_Explosion.Default__Damage_SkeletonBoss_PoisonBall_Explosion_C,DamageMultiplier.BaseValueConstant,0,,0.025
-
-#Kastor Ring Run
-SparkCharacterLoadedEntry,(1,1,0,BPChar_SkeletonBoss),/Game/Enemies/SkeletonBoss/_Shared/_Design/Damage/Damage_SkeletonBoss_TremorRing.Default__Damage_SkeletonBoss_TremorRing_C,DamageMultiplier.BaseValueConstant,0,,0.65
-
-
-
-# BOSS DAMAGE IN CHAOS MODE #
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Colossus1_Runnable),/Game/Enemies/Colossus/_Design/Balance/Table_Colossus_Balance.Table_Colossus_Balance,Colossus1_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Colossus2_Runnable),/Game/Enemies/Colossus/_Design/Balance/Table_Colossus_Balance.Table_Colossus_Balance,Colossus2_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Colossus3_Runnable),/Game/Enemies/Colossus/_Design/Balance/Table_Colossus_Balance.Table_Colossus_Balance,Colossus3_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_BansheeBoss_Runnable),/Game/Enemies/Banshee/_Shared/_Design/Balance/Table_Banshee_Balance.Table_Banshee_Balance,BansheeBoss_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_BoneArmy_ZombieQueen_Runnable),/Game/Enemies/BoneArmy/_Shared/_Design/Balance/Table_Balance_BoneArmy_Uniques.Table_Balance_BoneArmy_Uniques,Zomboss_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_DragonMech_Runnable),/Game/Enemies/Vorcanar/_Shared/_Design/Balance/Table_Balance_Vorcanar.Table_Balance_Vorcanar,Vorcanar_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1.25
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_DragonMech_Indigo),/Game/Enemies/Vorcanar/_Shared/_Design/Balance/Table_Balance_Vorcanar.Table_Balance_Vorcanar,Vorcanar_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1.15
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_BonePirate_LeChance_Runnable),/Game/Enemies/BoneArmy/_Shared/_Design/Balance/Table_Balance_BoneArmy_Uniques.Table_Balance_BoneArmy_Uniques,LeChance_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1.25
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_WastardBoss_Runnable),/Game/NonPlayerCharacters/Wastard/_TheBoss/Balance/Table_WastardBoss_Balance.Table_WastardBoss_Balance,WastardBoss_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Naga_WaterGoddess_Run),/Game/Enemies/Naga/_Shared/_Design/Balance/Table_Balance_NagaUniques.Table_Balance_NagaUniques,WaterGoddess_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_BoneArmy_Knightmare_Runnable),/Game/Enemies/BoneArmy/_Shared/_Design/Balance/Table_Balance_BoneArmy_Uniques.Table_Balance_BoneArmy_Uniques,Knightmare_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_CorruptBoss_Runnable),/Game/Enemies/Mushroom/_Shared/_Design/Balance/Table_Balance_Mushroom_Unique_PT1.Table_Balance_Mushroom_Unique_PT1,CorruptBoss_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1.75
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_FinalBossS1_Run),/Game/Enemies/FinalBoss/_Shared/_Design/Balance/Table_FinalBoss_Balance.Table_FinalBoss_Balance,RunStage1_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_FinalBossS2_Run),/Game/Enemies/FinalBoss/_Shared/_Design/Balance/Table_FinalBoss_Balance.Table_FinalBoss_Balance,RunStage2_PT2,DamageMultiplier_LevelBased_23_3CAF34804D650A98AB8FAFAB37CB87FF,0,,1
-
-
-# VORCANAR Health
-SparkCharacterLoadedEntry,(1,2,0,BPChar_DragonMech),/Game/Enemies/Vorcanar/_Shared/_Design/Balance/Table_Balance_Vorcanar.Table_Balance_Vorcanar,Vorcanar_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,75
-SparkCharacterLoadedEntry,(1,2,0,BPChar_DragonMech_Runnable),/Game/Enemies/Vorcanar/_Shared/_Design/Balance/Table_Balance_Vorcanar.Table_Balance_Vorcanar,Vorcanar_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,75
-
-SparkCharacterLoadedEntry,(1,1,0,BPChar_DragonMech_Indigo),/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Vorcanar_2.ItemPool_MiniBoss_Vorcanar_2,BalancedItems.BalancedItems[0].InventoryBalanceData,0,,None
-SparkCharacterLoadedEntry,(1,1,0,BPChar_DragonMech_Indigo),/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Vorcanar_2.ItemPool_MiniBoss_Vorcanar_2,BalancedItems.BalancedItems[0].ResolvedInventoryBalanceData,0,,None
-SparkCharacterLoadedEntry,(1,1,0,BPChar_DragonMech_Indigo),/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Vorcanar_2.ItemPool_MiniBoss_Vorcanar_2,BalancedItems.BalancedItems[0].ItemPoolData,0,,ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/AssaultRifles/ItemPool_AssaultRifles_Legendary.ItemPool_AssaultRifles_Legendary"'
-SparkCharacterLoadedEntry,(1,1,0,BPChar_DragonMech_Indigo),/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Vorcanar_2.ItemPool_MiniBoss_Vorcanar_2,BalancedItems.BalancedItems[1].InventoryBalanceData,0,,None
-SparkCharacterLoadedEntry,(1,1,0,BPChar_DragonMech_Indigo),/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Vorcanar_2.ItemPool_MiniBoss_Vorcanar_2,BalancedItems.BalancedItems[1].ResolvedInventoryBalanceData,0,,None
-SparkCharacterLoadedEntry,(1,1,0,BPChar_DragonMech_Indigo),/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Vorcanar_2.ItemPool_MiniBoss_Vorcanar_2,BalancedItems.BalancedItems[1].ItemPoolData,0,,ItemPoolData'"/Game/GameData/Loot/ItemPools/Shields/ItemPool_Shields_05_Legendary.ItemPool_Shields_05_Legendary"'
-##ChumsSparkCharacterLoadedEntry,(1,1,0,BPChar_DragonMech_Indigo),/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Vorcanar_2.ItemPool_MiniBoss_Vorcanar_2,BalancedItems.BalancedItems[2].InventoryBalanceData,0,,None
-SparkCharacterLoadedEntry,(1,1,0,BPChar_DragonMech_Indigo),/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Vorcanar_2.ItemPool_MiniBoss_Vorcanar_2,BalancedItems.BalancedItems[2].ResolvedInventoryBalanceData,0,,None
-SparkCharacterLoadedEntry,(1,1,0,BPChar_DragonMech_Indigo),/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Vorcanar_2.ItemPool_MiniBoss_Vorcanar_2,BalancedItems.BalancedItems[2].ItemPoolData,0,,ItemPoolData'"/Game/GameData/Loot/ItemPools/Armor/ItemPool_Armor_05_Legendary.ItemPool_Armor_05_Legendary"'
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Shark_Boss_V1),/Game/PatchDLC/Indigo1/Enemies/LandShark/_Shared/_Design/Balance/Table_Sharknado_Boss_Balance.Table_Sharknado_Boss_Balance,SharkBossV1,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,80
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Shark_Boss_V2),/Game/PatchDLC/Indigo1/Enemies/LandShark/_Shared/_Design/Balance/Table_Sharknado_Boss_Balance.Table_Sharknado_Boss_Balance,SharkBossV2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,90
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Shark_Boss_V3),/Game/PatchDLC/Indigo1/Enemies/LandShark/_Shared/_Design/Balance/Table_Sharknado_Boss_Balance.Table_Sharknado_Boss_Balance,SharkBossV3,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,50
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Shark_Boss_V3),/Game/PatchDLC/Indigo1/Enemies/LandShark/_Shared/_Design/Balance/Table_Sharknado_Boss_Balance.Table_Sharknado_Boss_Balance,SharkBossV3,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,60
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_LandSharknado_Boss),/Game/PatchDLC/Indigo1/Enemies/LandShark/_Shared/_Design/Balance/Table_Sharknado_Boss_Balance.Table_Sharknado_Boss_Balance,SharkBossV4,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,70
-
-#Less Imelda Human Health
-SparkCharacterLoadedEntry,(1,2,0,BPCHar_PettyRocker_Human_v1),/Game/PatchDLC/Indigo2/Enemies/Witch/_Shared/_Design/Balance/Table_WitchBossImelda_Balance.Table_WitchBossImelda_Balance,WitchHumanV1_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,12
-SparkCharacterLoadedEntry,(1,2,0,BPCHar_PettyRocker_Human_v2),/Game/PatchDLC/Indigo2/Enemies/Witch/_Shared/_Design/Balance/Table_WitchBossImelda_Balance.Table_WitchBossImelda_Balance,WitchHumanV2_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,16
-SparkCharacterLoadedEntry,(1,2,0,BPCHar_PettyRocker_Human_v3),/Game/PatchDLC/Indigo2/Enemies/Witch/_Shared/_Design/Balance/Table_WitchBossImelda_Balance.Table_WitchBossImelda_Balance,WitchHumanV3_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,20
-SparkCharacterLoadedEntry,(1,2,0,BPCHar_PettyRocker_Human_v4),/Game/PatchDLC/Indigo2/Enemies/Witch/_Shared/_Design/Balance/Table_WitchBossImelda_Balance.Table_WitchBossImelda_Balance,WitchHumanV4_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,24
-
-#DLC 3 Gauntlet Crystal/ Enemy Health
-SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/PatchDLC/Indigo3/Enemies/Smith/_Shared/_Design/Balance/Table_Smith_Boss_Balance.Table_Smith_Boss_Balance,ShieldBattery_V1,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1
-SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/PatchDLC/Indigo3/Enemies/Smith/_Shared/_Design/Balance/Table_Smith_Boss_Balance.Table_Smith_Boss_Balance,ShieldBattery_V2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1
-SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/PatchDLC/Indigo3/Enemies/Smith/_Shared/_Design/Balance/Table_Smith_Boss_Balance.Table_Smith_Boss_Balance,ShieldBattery_V3,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1
-SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/PatchDLC/Indigo3/Enemies/Smith/_Shared/_Design/Balance/Table_Smith_Boss_Balance.Table_Smith_Boss_Balance,ShieldBattery_V4,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1
-
-SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/PatchDLC/Indigo3/Enemies/Smith/_Shared/_Design/Balance/Table_Smith_Boss_Balance.Table_Smith_Boss_Balance,MunitionGolem,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,2
-SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/PatchDLC/Indigo3/Enemies/Smith/_Shared/_Design/Balance/Table_Smith_Boss_Balance.Table_Smith_Boss_Balance,BulletGuy,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,0.5
-
-#Redmournce
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V1),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernBossV1_P2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E120,0,,40
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V1),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernBossV1_P2,HealthMultiplier_02_Secondary_12_9204082C4992E4200D005C8CBA622E49,0,,45
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V1),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernBossV1_P2,HealthMultiplier_02_Secondary_12_9204082C4992E4200D005C8CBA622E49,0,,45
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V2),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernBossV2_P2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E120,0,,45
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V2),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernBossV2_P2,HealthMultiplier_02_Secondary_12_9204082C4992E4200D005C8CBA622E49,0,,55
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V2),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernHeadV2_P2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E120,0,,27
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V3),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernBossV3_P2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E120,0,,55
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V3),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernBossV3_P2,HealthMultiplier_02_Secondary_12_9204082C4992E4200D005C8CBA622E49,0,,65
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V3),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernHeadV3_P2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E120,0,,32
-
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V4),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernBossV4_P2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E120,0,,42
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V4),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernBossV4_P2,HealthMultiplier_02_Secondary_12_9204082C4992E4200D005C8CBA622E49,0,,50
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V4),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernBossV4_P2,HealthMultiplier_03_Tertiary_16_46D12ED24F464AF5278FAAA2927388E2,0,,62
-SparkCharacterLoadedEntry,(1,2,0,BPChar_Wyvern_Boss_V4),/Game/PatchDLC/Indigo4/Enemies/Wyvern/_Shared/_Design/Balance/Table_Wyvern_Balance_Boss_Shared.Table_Wyvern_Balance_Boss_Shared,WyvernHeadV4_P2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E120,0,,40
-
-# Wastard
-SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/NonPlayerCharacters/Wastard/_TheBoss/Balance/Table_WastardBoss_Balance.Table_WastardBoss_Balance,WastardBoss_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,37.5
-SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/NonPlayerCharacters/Wastard/_TheBoss/Balance/Table_WastardBoss_Balance.Table_WastardBoss_Balance,WastardBoss_PT2,HealthMultiplier_02_Secondary_12_9204082C4992E4200D005C8CBA622E49,0,,35
-SparkCharacterLoadedEntry,(1,2,0,MatchAll),/Game/NonPlayerCharacters/Wastard/_TheBoss/Balance/Table_WastardBoss_Balance.Table_WastardBoss_Balance,WastardBoss_PT2,HealthMultiplier_03_Tertiary_16_46D12ED24F464AF5278FAAA2927388E2,0,,35
-
-
-#Parasite
-SparkCharacterLoadedEntry,(1,1,0,BPChar_CorruptBoss),/Game/Enemies/Mushroom/_Unique/CorruptBoss/_Design/Character/BPChar_CorruptBoss.BPChar_CorruptBoss_C:AIBalanceState_GEN_VARIABLE,PlayThroughs,0,,((bOverrideUIDisplayName=True,DisplayUIName=GbxUIName'"/Game/Enemies/Mushroom/_Unique/CorruptBoss/_Design/Character/UIName_CorruptBoss.UIName_CorruptBoss"',BalanceTableRow=(DataTable=DataTable'"/Game/Enemies/Mushroom/_Shared/_Design/Balance/Table_Balance_Mushroom_Unique_PT1.Table_Balance_Mushroom_Unique_PT1"',RowName="CorruptBoss")),(bOverrideUIDisplayName=True,DisplayUIName=GbxUIName'"/Game/Enemies/Mushroom/_Unique/CorruptBoss/_Design/Character/UIName_CorruptBoss.UIName_CorruptBoss"',BalanceTableRow=(DataTable=DataTable'"/Game/Enemies/Mushroom/_Shared/_Design/Balance/Table_Balance_Mushroom_Unique_PT1.Table_Balance_Mushroom_Unique_PT1"',RowName="CorruptBoss_PT2"))
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Enemies/Mushroom/_Unique/CorruptBoss/_Design/Character/BPChar_CorruptBoss.BPChar_CorruptBoss_C:AIBalanceState_GEN_VARIABLE,PlayThroughs,0,,((bOverrideUIDisplayName=True,DisplayUIName=GbxUIName'"/Game/Enemies/Mushroom/_Unique/CorruptBoss/_Design/Character/UIName_CorruptBoss.UIName_CorruptBoss"',BalanceTableRow=(DataTable=DataTable'"/Game/Enemies/Mushroom/_Shared/_Design/Balance/Table_Balance_Mushroom_Unique_PT1.Table_Balance_Mushroom_Unique_PT1"',RowName="CorruptBoss")),(bOverrideUIDisplayName=True,DisplayUIName=GbxUIName'"/Game/Enemies/Mushroom/_Unique/CorruptBoss/_Design/Character/UIName_CorruptBoss.UIName_CorruptBoss"',BalanceTableRow=(DataTable=DataTable'"/Game/Enemies/Mushroom/_Shared/_Design/Balance/Table_Balance_Mushroom_Unique_PT1.Table_Balance_Mushroom_Unique_PT1"',RowName="CorruptBoss_PT2"))
-SparkCharacterLoadedEntry,(1,2,0,BPChar_CorruptBoss),/Game/Enemies/Mushroom/_Shared/_Design/Balance/Table_Balance_Mushroom_Unique_PT1.Table_Balance_Mushroom_Unique_PT1,CorruptBoss_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,28
-SparkCharacterLoadedEntry,(1,2,0,BPChar_CorruptBoss),/Game/Enemies/Mushroom/_Shared/_Design/Balance/Table_Balance_Mushroom_Unique_PT1.Table_Balance_Mushroom_Unique_PT1,CorruptBoss_PT2,HealthMultiplier_02_Secondary_12_9204082C4992E4200D005C8CBA622E49,0,,28
-SparkCharacterLoadedEntry,(1,2,0,BPChar_CorruptBoss),/Game/Enemies/Mushroom/_Shared/_Design/Balance/Table_Balance_Mushroom_Unique_PT1.Table_Balance_Mushroom_Unique_PT1,CorruptBoss_PT2,HealthMultiplier_03_Tertiary_16_46D12ED24F464AF5278FAAA2927388E2,0,,28
-
-# chaos chamber trap changes
-SparkLevelAddedToWorldEntry,(1,1,0,MatchAll),/Game/InteractiveObjects/Traps/_Design/_Classes/HexVolume/StatusEffect_Hex_Slow.StatusEffect_Hex_Slow,AttributeEffects,0,,((AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Shield/Att_ShieldPassivePercentRegenerationRate.Att_ShieldPassivePercentRegenerationRate"',ModifierType=PostAdd,BaseModifierValue=(BaseValueConstant=0.35,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0)))
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/InteractiveObjects/Traps/_Design/_Classes/HexVolume/StatusEffect_Hex_Slow.StatusEffect_Hex_Slow,AttributeEffects,0,,((AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Shield/Att_ShieldPassivePercentRegenerationRate.Att_ShieldPassivePercentRegenerationRate"',ModifierType=PostAdd,BaseModifierValue=(BaseValueConstant=0.35,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0)))
 
 # Elemental Infusion stuff 
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues,ElementalInfusion_Chance_All,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.1
