@@ -18,18 +18,261 @@ SparkCharacterLoadedEntry,(1,2,0,BPChar_NatureAspect),Game/Enemies/EndlessBoss/_
 SparkCharacterLoadedEntry,(1,2,0,BPChar_NatureAspect),Game/Enemies/EndlessBoss/_Design/Balance/Table_Balance_EndlessBoss_Health.Table_Balance_EndlessBoss_Health,Nature_PT2,HealthMultiplier_01_Primary_9_07801BE24749AFC87299AD91E1B82E12,0,,1400
 
 
-## Loot Changes
+# Knightmare (25%)
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/Knightmare/_Design/Character/BPChar_BoneArmy_Knightmare.BPChar_BoneArmy_Knightmare_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/Knightmare/_Design/Character/BPChar_BoneArmy_Knightmare.BPChar_BoneArmy_Knightmare_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Knightmare.ItemPool_Boss_Knightmare"',PoolProbability=(BaseValueConstant=0.5)))
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/Knightmare/_Design/Character/BPChar_BoneArmy_Knightmare.BPChar_BoneArmy_Knightmare_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/Knightmare/_Design/Character/BPChar_BoneArmy_Knightmare_Runnable.BPChar_BoneArmy_Knightmare_Runnable_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Knightmare.ItemPool_Boss_Knightmare"',PoolProbability=(BaseValueConstant=0.5)))
 
-# Maker Loot
-SparkCharacterLoadedEntry,(1,1,0,BPChar_TheMaker),/Game/Enemies/EndlessBoss/_Design/Character/TheMaker/BPChar_TheMaker.BPChar_TheMaker_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Aspect_Maker.ItemPool_Boss_Aspect_Maker"',PoolProbability=(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,DataTableValue=(DataTable=,RowName=,ValueName=),BaseValueAttribute=,AttributeInitializer=,BaseValueScale=5)))
 
-# Dragon Lord (mission) Loot
-SparkCharacterLoadedEntry,(1,1,0,BPChar_FinalBossS2_Run),/Game/Enemies/FinalBoss/_Shared/_Design/Character/BPChar_FinalBossS2_Run.BPChar_FinalBossS2_Run_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Aspect_Maker.ItemPool_Boss_Aspect_Maker"',PoolProbability=(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,DataTableValue=(DataTable=,RowName=,ValueName=),BaseValueAttribute=,AttributeInitializer=,BaseValueScale=2)))
+# Dragon Lord (25%)
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/FinalBoss/_Shared/_Design/Character/BPChar_FinalBoss.BPChar_FinalBoss_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/FinalBoss/_Shared/_Design/Character/BPChar_FinalBoss.BPChar_FinalBoss_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_DragonLord.ItemPool_Boss_DragonLord"',PoolProbability=(BaseValueConstant=0.5)))
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/FinalBoss/_Shared/_Design/Character/BPChar_FinalBossS2_Run.BPChar_FinalBossS2_Run_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/FinalBoss/_Shared/_Design/Character/BPChar_FinalBossS2_Run.BPChar_FinalBossS2_Run_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_DragonLord.ItemPool_Boss_DragonLord"',PoolProbability=(BaseValueConstant=0.5)))
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/FinalBoss/_Shared/_Design/Character/BPChar_FinalBossStage2.BPChar_FinalBossStage2_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/FinalBoss/_Shared/_Design/Character/BPChar_FinalBossStage2.BPChar_FinalBossStage2_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_DragonLord.ItemPool_Boss_DragonLord"',PoolProbability=(BaseValueConstant=0.5)))
 
-# Dragon Lord (plot) Loot
-SparkCharacterLoadedEntry,(1,1,0,BPChar_FinalBoss),/Game/Enemies/FinalBoss/_Shared/_Design/Character/BPChar_FinalBoss.BPChar_FinalBoss_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_DragonLord.ItemPool_Boss_DragonLord"',PoolProbability=(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,DataTableValue=(DataTable=,RowName=,ValueName=),BaseValueAttribute=,AttributeInitializer=,BaseValueScale=2)))
+# Dryl (30%)
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus3),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus3_Runnable.BPChar_Colossus3_Runnable_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus3),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus3_Runnable.BPChar_Colossus3_Runnable_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Colossus.ItemPool_Boss_Colossus"',PoolProbability=(BaseValueConstant=0.5)))
 
-SparkCharacterLoadedEntry,(1,1,0,BPChar_FinalBossStage2),/Game/Enemies/FinalBoss/_Shared/_Design/Character/BPChar_FinalBossStage2.BPChar_FinalBossStage2_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools[2],0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_DragonLord.ItemPool_Boss_DragonLord"',PoolProbability=(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,DataTableValue=(DataTable=,RowName=,ValueName=),BaseValueAttribute=,AttributeInitializer=,BaseValueScale=2)))
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus3),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus3.BPChar_Colossus3_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus3),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus3.BPChar_Colossus3_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Colossus.ItemPool_Boss_Colossus"',PoolProbability=(BaseValueConstant=0.5)))
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus2_Runnable),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus2_Runnable.BPChar_Colossus2_Runnable_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus2_Runnable),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus2_Runnable.BPChar_Colossus2_Runnable_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Colossus.ItemPool_Boss_Colossus"',PoolProbability=(BaseValueConstant=0.5)))
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus2),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus2.BPChar_Colossus2_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus2),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus2.BPChar_Colossus2_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Colossus.ItemPool_Boss_Colossus"',PoolProbability=(BaseValueConstant=0.5)))
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus1_Runnable),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus1_Runnable.BPChar_Colossus1_Runnable_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus1_Runnable),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus1_Runnable.BPChar_Colossus1_Runnable_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Colossus.ItemPool_Boss_Colossus"',PoolProbability=(BaseValueConstant=0.5)))
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus1),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus1.BPChar_Colossus1_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Colossus1),/Game/Enemies/Colossus/_Design/Character/BPChar_Colossus1.BPChar_Colossus1_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Colossus.ItemPool_Boss_Colossus"',PoolProbability=(BaseValueConstant=0.5)))
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_ColossusShared),/Game/Enemies/Colossus/_Design/Character/BPChar_ColossusShared.BPChar_ColossusShared_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_ColossusShared),/Game/Enemies/Colossus/_Design/Character/BPChar_ColossusShared.BPChar_ColossusShared_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Colossus.ItemPool_Boss_Colossus"',PoolProbability=(BaseValueConstant=0.5)))
+
+
+# Banshee (20%)
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Banshee/_Shared/_Design/Character/BPChar_Banshee.BPChar_Banshee_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Banshee/_Shared/_Design/Character/BPChar_Banshee.BPChar_Banshee_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Banshee.ItemPool_Boss_Banshee"',PoolProbability=(BaseValueConstant=0.5)))
+#Set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_BansheeBoss),/Game/Enemies/Banshee/Boss/_Design/Character/BPChar_BansheeBoss.BPChar_BansheeBoss_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Banshee/Boss/_Design/Character/BPChar_BansheeBoss.BPChar_BansheeBoss_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Banshee.ItemPool_Boss_Banshee"',PoolProbability=(BaseValueConstant=0.5)))
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Banshee/Boss/_Design/Character/BPChar_BansheeBoss_Runnable.BPChar_BansheeBoss_Runnable_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Banshee/Boss/_Design/Character/BPChar_BansheeBoss_Runnable.BPChar_BansheeBoss_Runnable_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Boss_Banshee.ItemPool_Boss_Banshee"',PoolProbability=(BaseValueConstant=0.5)))
+
+
+
+# Ribula (15%)
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/Ribula/Design/Character/BPChar_BoneArmy_Ribula.BPChar_BoneArmy_Ribula_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/Ribula/Design/Character/BPChar_BoneArmy_Ribula.BPChar_BoneArmy_Ribula_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Ribula.ItemPool_MiniBoss_Ribula"',PoolProbability=(BaseValueConstant=0.25)))
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/Ribula/Design/Character/BPChar_BoneArmy_Ribula_Runnable.BPChar_BoneArmy_Ribula_Runnable_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/Ribula/Design/Character/BPChar_BoneArmy_Ribula_Runnable.BPChar_BoneArmy_Ribula_Runnable_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Ribula.ItemPool_MiniBoss_Ribula"',PoolProbability=(BaseValueConstant=0.25)))
+
+# Parasite (20%)
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Mushroom/_Unique/CorruptBoss/_Design/Character/BPChar_CorruptBoss.BPChar_CorruptBoss_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Mushroom/_Unique/CorruptBoss/_Design/Character/BPChar_CorruptBoss.BPChar_CorruptBoss_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Parasite.ItemPool_MiniBoss_Parasite"',PoolProbability=(BaseValueConstant=0.5)))
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Mushroom/_Unique/CorruptBoss/_Design/Character/BPChar_CorruptBoss_Runnable.BPChar_CorruptBoss_Runnable_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Mushroom/_Unique/CorruptBoss/_Design/Character/BPChar_CorruptBoss_Runnable.BPChar_CorruptBoss_Runnable_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Parasite.ItemPool_MiniBoss_Parasite"',PoolProbability=(BaseValueConstant=0.5)))
+
+
+
+# Le Chance (20%)
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BonePirate/_Unique/LeChance/_Design/Character/BPChar_BonePirate_LeChance.BPChar_BonePirate_LeChance_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BonePirate/_Unique/LeChance/_Design/Character/BPChar_BonePirate_LeChance.BPChar_BonePirate_LeChance_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_LeChance.ItemPool_MiniBoss_LeChance"',PoolProbability=(BaseValueConstant=0.5)))
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BonePirate/_Unique/LeChance/_Design/Character/BPChar_BonePirate_LeChance_Runnable.BPChar_BonePirate_LeChance_Runnable_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BonePirate/_Unique/LeChance/_Design/Character/BPChar_BonePirate_LeChance_Runnable.BPChar_BonePirate_LeChance_Runnable_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_LeChance.ItemPool_MiniBoss_LeChance"',PoolProbability=(BaseValueConstant=0.5)))
+
+# Salissa (20%)
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Naga/_Unique/WaterGoddess/_Design/Character/BPChar_Naga_WaterGoddess.BPChar_Naga_WaterGoddess_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Naga/_Unique/WaterGoddess/_Design/Character/BPChar_Naga_WaterGoddess.BPChar_Naga_WaterGoddess_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Sarilla.ItemPool_MiniBoss_Sarilla"',PoolProbability=(BaseValueConstant=0.5)))
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Naga/_Unique/WaterGoddess/_Design/Character/BPChar_Naga_WaterGoddess_Run.BPChar_Naga_WaterGoddess_Run_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Naga/_Unique/WaterGoddess/_Design/Character/BPChar_Naga_WaterGoddess_Run.BPChar_Naga_WaterGoddess_Run_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Sarilla.ItemPool_MiniBoss_Sarilla"',PoolProbability=(BaseValueConstant=0.5)))
+
+
+# Vorcanar (35%)
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Vorcanar/_Shared/_Design/Character/BPChar_DragonMech.BPChar_DragonMech_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Vorcanar/_Shared/_Design/Character/BPChar_DragonMech.BPChar_DragonMech_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Vorcanar.ItemPool_MiniBoss_Vorcanar"',PoolProbability=(BaseValueConstant=0.5)))
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Vorcanar/_Shared/_Design/Character/BPChar_DragonMech_Runnable.BPChar_DragonMech_Runnable_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/Vorcanar/_Shared/_Design/Character/BPChar_DragonMech_Runnable.BPChar_DragonMech_Runnable_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Vorcanar.ItemPool_MiniBoss_Vorcanar"',PoolProbability=(BaseValueConstant=0.5)))
+
+
+# Wastard (20%)
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/NonPlayerCharacters/Wastard/_TheBoss/Character/BPChar_WastardBoss.BPChar_WastardBoss_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/NonPlayerCharacters/Wastard/_TheBoss/Character/BPChar_WastardBoss.BPChar_WastardBoss_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Wastard.ItemPool_MiniBoss_Wastard"',PoolProbability=(BaseValueConstant=0.5)))
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/NonPlayerCharacters/Wastard/_TheBoss/Character/BPChar_WastardBoss_Runnable.BPChar_WastardBoss_Runnable_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/NonPlayerCharacters/Wastard/_TheBoss/Character/BPChar_WastardBoss_Runnable.BPChar_WastardBoss_Runnable_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_Wastard.ItemPool_MiniBoss_Wastard"',PoolProbability=(BaseValueConstant=0.5)))
+
+
+# Zomboss (15%)
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/ZombieQueen/_Design/Character/BPChar_BoneArmy_ZombieQueen.BPChar_BoneArmy_ZombieQueen_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/ZombieQueen/_Design/Character/BPChar_BoneArmy_ZombieQueen.BPChar_BoneArmy_ZombieQueen_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_ZombieQueen.ItemPool_MiniBoss_ZombieQueen"',PoolProbability=(BaseValueConstant=0.25)))
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/ZombieQueen/_Design/Character/BPChar_BoneArmy_ZombieQueen_Runnable.BPChar_BoneArmy_ZombieQueen_Runnable_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/Enemies/BoneArmy/_Unique/ZombieQueen/_Design/Character/BPChar_BoneArmy_ZombieQueen_Runnable.BPChar_BoneArmy_ZombieQueen_Runnable_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_MiniBoss_ZombieQueen.ItemPool_MiniBoss_ZombieQueen"',PoolProbability=(BaseValueConstant=0.25)))
+
+
+
+# Obelisk bosses (MAINLY 35%)
+SparkCharacterLoadedEntry,(1,1,0,BPChar_LandShark_Ancient),/Game/Enemies/LandShark/_Unique/Ancient/_Design/Character/BPChar_LandShark_Ancient.BPChar_LandShark_Ancient_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_LandShark_Ancient),/Game/Enemies/LandShark/_Unique/Ancient/_Design/Character/BPChar_LandShark_Ancient.BPChar_LandShark_Ancient_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_ObeliskEnemy_AncientLandShark.ItemPool_ObeliskEnemy_AncientLandShark"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Crabro),/Game/Enemies/Crab/_Unique/Bounty1/_Design/Character/BPChar_Crabro.BPChar_Crabro_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Crabro),/Game/Enemies/Crab/_Unique/Bounty1/_Design/Character/BPChar_Crabro.BPChar_Crabro_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_ObeliskEnemy_Crab.ItemPool_ObeliskEnemy_Crab"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_BoneArmy_Bounty02),/Game/Enemies/BoneArmy/_Unique/Bounty02/_Design/Character/BPChar_BoneArmy_Bounty02.BPChar_BoneArmy_Bounty02_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_BoneArmy_Bounty02),/Game/Enemies/BoneArmy/_Unique/Bounty02/_Design/Character/BPChar_BoneArmy_Bounty02.BPChar_BoneArmy_Bounty02_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_ObeliskEnemy_DeathRattler.ItemPool_ObeliskEnemy_DeathRattler"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Cyclops_Bounty_01),/Game/Enemies/Cyclops/_Unique/Bounty_01/_Design/Character/BPChar_Cyclops_Bounty_01.BPChar_Cyclops_Bounty_01_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Cyclops_Bounty_01),/Game/Enemies/Cyclops/_Unique/Bounty_01/_Design/Character/BPChar_Cyclops_Bounty_01.BPChar_Cyclops_Bounty_01_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_ObeliskEnemy_EyeSpitterCyclops.ItemPool_ObeliskEnemy_EyeSpitterCyclops"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_LandShark_Bounty01),/Game/Enemies/LandShark/_Unique/Bounty01/_Design/Character/BPChar_LandShark_Bounty01.BPChar_LandShark_Bounty01_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_LandShark_Bounty01),/Game/Enemies/LandShark/_Unique/Bounty01/_Design/Character/BPChar_LandShark_Bounty01.BPChar_LandShark_Bounty01_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_ObeliskEnemy_GiantShark.ItemPool_ObeliskEnemy_GiantShark"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Mushroom_Bounty01),/Game/Enemies/Mushroom/_Unique/Bounty01/_Design/Character/BPChar_Mushroom_Bounty01.BPChar_Mushroom_Bounty01_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Mushroom_Bounty01),/Game/Enemies/Mushroom/_Unique/Bounty01/_Design/Character/BPChar_Mushroom_Bounty01.BPChar_Mushroom_Bounty01_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_ObeliskEnemy_MushroomMonster.ItemPool_ObeliskEnemy_MushroomMonster"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+
+# pigwart, make 20
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Pigwart),/Game/Enemies/Goblin/_Unique/Obelisk_Goblin/_Design/Character/BPChar_Pigwart.BPChar_Pigwart_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Pigwart),/Game/Enemies/Goblin/_Unique/Obelisk_Goblin/_Design/Character/BPChar_Pigwart.BPChar_Pigwart_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_ObeliskEnemy_Pigwart.ItemPool_ObeliskEnemy_Pigwart"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Naga_ObeliskDesert),/Game/Enemies/Naga/_Unique/ObeliskDesert/_Design/Character/BPChar_Naga_ObeliskDesert.BPChar_Naga_ObeliskDesert_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Naga_ObeliskDesert),/Game/Enemies/Naga/_Unique/ObeliskDesert/_Design/Character/BPChar_Naga_ObeliskDesert.BPChar_Naga_ObeliskDesert_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_ObeliskEnemy_SandNaga.ItemPool_ObeliskEnemy_SandNaga"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+
+#( droll the troll is quite far, make it 20 )
+SparkCharacterLoadedEntry,(1,1,0,BPChar_TrollDroll),/Game/Enemies/Troll/_Unique/TrollDroll/_Design/Character/BPChar_TrollDroll.BPChar_TrollDroll_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_TrollDroll),/Game/Enemies/Troll/_Unique/TrollDroll/_Design/Character/BPChar_TrollDroll.BPChar_TrollDroll_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_ObeliskEnemy_TrollKing.ItemPool_ObeliskEnemy_TrollKing"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_WyvernObelisk01),/Game/Enemies/Wyvern/_Unique/Obelisk01/_Design/Character/BPChar_WyvernObelisk01.BPChar_WyvernObelisk01_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_WyvernObelisk01),/Game/Enemies/Wyvern/_Unique/Obelisk01/_Design/Character/BPChar_WyvernObelisk01.BPChar_WyvernObelisk01_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_ObeliskEnemy_Wyvern.ItemPool_ObeliskEnemy_Wyvern"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Naga_ObeliskAqua),/Game/Enemies/Naga/_Unique/ObeliskAqua/_Design/Character/BPChar_Naga_ObeliskAqua.BPChar_Naga_ObeliskAqua_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Naga_ObeliskAqua),/Game/Enemies/Naga/_Unique/ObeliskAqua/_Design/Character/BPChar_Naga_ObeliskAqua.BPChar_Naga_ObeliskAqua_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_ObeliskEnemy_WaterNaga.ItemPool_ObeliskEnemy_WaterNaga"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_MushroomHealer),/Game/Enemies/Mushroom/_Unique/Healer/_Design/Character/UIName_MushroomHealer.UIName_MushroomHealer,DisplayName,0,,Mushroom Mike
+SparkCharacterLoadedEntry,(1,1,0,BPChar_MushroomHealer),/Game/Enemies/Mushroom/_Unique/Healer/_Design/Character/BPChar_MushroomHealer.BPChar_MushroomHealer_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_MushroomHealer),/Game/Enemies/Mushroom/_Unique/Healer/_Design/Character/BPChar_MushroomHealer.BPChar_MushroomHealer_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Unique_MushroomHealer_2.ItemPool_Unique_MushroomHealer_2"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+# Overworld Dungeon Bosses
+
+# buckethead
+SparkCharacterLoadedEntry,(1,1,0,BPChar_EnemyHuman_ObeliskBandit),/Game/Enemies/Human/_Unique/Obelisk_Bandit/_Design/Character/BPChar_EnemyHuman_ObeliskBandit.BPChar_EnemyHuman_ObeliskBandit_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_EnemyHuman_ObeliskBandit),/Game/Enemies/Human/_Unique/Obelisk_Bandit/_Design/Character/BPChar_EnemyHuman_ObeliskBandit.BPChar_EnemyHuman_ObeliskBandit_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/Door/ItemPool_Unique_DD_BucketHead.ItemPool_Unique_DD_BucketHead"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+# captain swallow
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Swallow),/Game/Enemies/Human/_Unique/Obelisk_Pirate/_Design/Character/BPChar_Swallow.BPChar_Swallow_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Swallow),/Game/Enemies/Human/_Unique/Obelisk_Pirate/_Design/Character/BPChar_Swallow.BPChar_Swallow_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/Door/ItemPool_Unique_DD_CptSwallow.ItemPool_Unique_DD_CptSwallow"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+
+# eros wvern
+SparkCharacterLoadedEntry,(1,1,0,BPChar_WyvernObelisk02),/Game/Enemies/Wyvern/_Unique/Obelisk02/_Design/Character/BPChar_WyvernObelisk02.BPChar_WyvernObelisk02_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_WyvernObelisk02),/Game/Enemies/Wyvern/_Unique/Obelisk02/_Design/Character/BPChar_WyvernObelisk02.BPChar_WyvernObelisk02_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/Door/ItemPool_Unique_DD_ErosWyvern.ItemPool_Unique_DD_ErosWyvern"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+# frondstrocity
+SparkCharacterLoadedEntry,(1,1,0,BPChar_MushroomAncient),/Game/Enemies/Mushroom/_Unique/Ancient/_Design/Character/BPChar_MushroomAncient.BPChar_MushroomAncient_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_MushroomAncient),/Game/Enemies/Mushroom/_Unique/Ancient/_Design/Character/BPChar_MushroomAncient.BPChar_MushroomAncient_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/Door/ItemPool_Unique_DD_Frondstrocity.ItemPool_Unique_DD_Frondstrocity"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+# grissom whitmore
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Grissom),/Game/Enemies/Human/_Unique/Obelisk_Cultist/_Design/Character/BPChar_Grissom.BPChar_Grissom_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Grissom),/Game/Enemies/Human/_Unique/Obelisk_Cultist/_Design/Character/BPChar_Grissom.BPChar_Grissom_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/Door/ItemPool_Unique_DD_GrissomWhitmore.ItemPool_Unique_DD_GrissomWhitmore"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+# thorne shadow
+SparkCharacterLoadedEntry,(1,1,0,BPChar_ThorneShadow),/Game/Enemies/Human/_Unique/Obelisk_Assassin/_Design/Character/BPChar_ThorneShadow.BPChar_ThorneShadow_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_ThorneShadow),/Game/Enemies/Human/_Unique/Obelisk_Assassin/_Design/Character/BPChar_ThorneShadow.BPChar_ThorneShadow_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/Door/ItemPool_Unique_DD_ThorneShadow.ItemPool_Unique_DD_ThorneShadow"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+# magical splotch
+SparkCharacterLoadedEntry,(1,1,0,BPChar_SplotchMagical),/Game/Enemies/Splotch/_Unique/Magical/Design/Character/BPChar_SplotchMagical.BPChar_SplotchMagical_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_SplotchMagical),/Game/Enemies/Splotch/_Unique/Magical/Design/Character/BPChar_SplotchMagical.BPChar_SplotchMagical_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/Door/ItemPool_Unique_DD_MagicSplotch.ItemPool_Unique_DD_MagicSplotch"',PoolProbability=(BaseValueConstant=0.75)))
+
+
+SparkCharacterLoadedEntry,(1,1,0,BPChar_SkeletonBoss),/Game/Enemies/SkeletonBoss/_Shared/_Design/Character/BPChar_SkeletonBoss.BPChar_SkeletonBoss_C:AIBalanceState_GEN_VARIABLE,bOverrideDropOnDeathItemPools,0,,true
+# set the pool
+SparkCharacterLoadedEntry,(1,1,0,BPChar_SkeletonBoss),/Game/Enemies/SkeletonBoss/_Shared/_Design/Character/BPChar_SkeletonBoss.BPChar_SkeletonBoss_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Unique/ItemPool_Unique_GiantSkeleton_2.ItemPool_Unique_GiantSkeleton_2"',PoolProbability=(BaseValueConstant=0.35)))
 
 
 # Blue Hat Monstrosity

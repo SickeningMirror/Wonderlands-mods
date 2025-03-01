@@ -67,6 +67,8 @@ SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Ranger/_Shared/_Design/SkillTree
 ##BrrZerker
 # Lowering Feral Surge's Cooldown
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,ActionSkill_NowWeSlass_Cooldown,Value,0,,(BaseValueConstant=22,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1)
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,ActionSkill_NowWeSlass_DamageRadius,Value,0,,(BaseValueConstant=5,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1)
+
 
 # Buffing Feral Surge
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,ActionSkill_NowWeSlass_Damage,Value,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
