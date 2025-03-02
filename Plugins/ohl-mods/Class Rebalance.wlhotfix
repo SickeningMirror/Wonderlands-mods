@@ -114,6 +114,9 @@ SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/D
 
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/HealthBalanceScalers/DataTable_DamageAndHealthScalers.DataTable_DamageAndHealthScalers,Player_HealthBase,Scaler_4_FE2B037B42E1F6E76E3AEBAFDCC8DB86,0,,160
 
+
+
+
 #Better Blank Slate
 SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula,Primary_8_7144784543D12C00F7A08182E7FDEE36,0,,0.2
 SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula_AbilityScalars,Duration_4_991797B5420658C242A0EFAF04758565,0,,0.3
