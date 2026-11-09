@@ -79,7 +79,7 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Dahl/_Shared/_Design/_Unique
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Dahl/_Shared/_Design/_Unique/Perceiver/UIStat_RedText_Perceiver.UIStat_RedText_Perceiver,Text,0,,[Flavor]How do you want to do this?[/Flavor] [newline] (Chance to deal bonus crit damage on any hit.  Semi-auto mode uses 3 ammo for 1 bullet which does +94% damage.)
 
 # Ruby's Spite
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Dahl/_Shared/_Design/_Unique/RoisensSpite/UIStat_RedText_RoisensSpite.UIStat_RedText_RoisensSpite,Text,0,,[Flavor]Death fulfillment.[/Flavor] [newline] (Fires in 3 horizontal rows.  For 5s after killing an enemy, bolts become homing and fire rate is increased.  Alt mode is +190% damage.)
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Dahl/_Shared/_Design/_Unique/RoisensSpite/UIStat_RedText_RoisensSpite.UIStat_RedText_RoisensSpite,Text,0,,[Flavor]Death fulfillment.[/Flavor] [newline] (Fires in 3 horizontal rows.  For 5s after killing an enemy, bolts become homing and fire rate is increased.)
 
 # Catatumbo
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Jakobs/_Shared/_Design/_Unique/Catatumbo/UIStat_RedText_Catatumbo.UIStat_RedText_Catatumbo,Text,0,,[Flavor]Witness the river's rage.[/Flavor] [newline] (Critical hits strike the enemy with [Shock]lightning[/Shock], dealing 50% splash damage.)
