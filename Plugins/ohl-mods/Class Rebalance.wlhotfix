@@ -1,8 +1,8 @@
-SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerCompanionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,3.75
+######################################################################
+### 1. CLASS SKILLS & PASSIVES
+######################################################################
 
-
-
-##Clawbringer
+# --- Clawbringer ---
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_27/SE_KotC_Passive27_CritChance.SE_KotC_Passive27_CritChance,AttributeEffects.AttributeEffects[0].ModifierType,0,,PreAdd
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,PassiveSkill29_GunDamage,Value,0,,(BaseValueConstant=0.20000,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,PassiveSkill27_CritChance,Value,0,,(BaseValueConstant=0.01300,DataTableValue=(DataTable=None,RowName="",ValueName=""))
@@ -15,13 +15,11 @@ SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_30/Passive_KotC_30.Default__Passive_KotC_30_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Melee Damage:[/skillbold] $VALUE$
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,AS4_Cooldown,Value,0,,(BaseValueConstant=25,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,AS3_Cooldown,Value,0,,(BaseValueConstant=21,DataTableValue=(DataTable=None,RowName="",ValueName=""))
-
 # Decreasing the Wyvern's cooldowns
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,DragonCompanion_ClawAttackCooldown,Value,0,,(BaseValueConstant=3,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1)
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,DragonCompanion_FireBoltCooldown,Value,0,,(BaseValueConstant=8,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1)
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,DragonCompanion_FireBreathCooldown,Value,0,,(BaseValueConstant=11,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1)
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,DragonCompanion_ShockBreathCooldown,Value,0,,(BaseValueConstant=16,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1)
-
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_14/Passive_KotC_14.Default__Passive_KotC_14_C,AbilityDescription,0,,The Fatemaker gains increased [skillbold]Maximum Ward Capacity[/skillbold], decreased [skillbold]Ward Recharge Delay[/skillbold] and increased [skillbold]Ward Recharge Rate[/skillbold].
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_14/Passive_KotC_14.Default__Passive_KotC_14_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_14/Passive_KotC_14.Default__Passive_KotC_14_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_14/Passive_KotC_14.Default__Passive_KotC_14_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_1',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_14/Passive_KotC_14.Default__Passive_KotC_14_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_2')
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_14/Passive_KotC_14.Default__Passive_KotC_14_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_1,StatusEffectData,0,,StatusEffectData'/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_14/StatusEffect_KotC_14.StatusEffect_KotC_14'
@@ -49,17 +47,18 @@ SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_14/StatusEffect_KotC_14.StatusEffect_KotC_14:Mutator_OakPassiveAbilityAttributeEffectMutatorData2,PerGradeUpgrade,0,,(BaseValueConstant=0.06,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0)
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_ConstantValues.DataTable_KnightOfTheClaw_ConstantValues,PassiveSkill15_CooldownRate,Value,0,,(BaseValueConstant=0.08)
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_21/Damage_KotC_Passive21.Default__Damage_KotC_Passive21_C,bForceNoCrit,0,,False
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_04/CDM_KotC_Passive04.CDM_KotC_Passive04,DamageSourceFilter,0,,((AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Damage/Att_DamageTakenMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_14/StatusEffect_KotC_14.StatusEffect_KotC_14:Mutator_OakPassiveAbilityAttributeEffectMutatorData'),(AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Shield/Att_ShieldOnIdleRegenerationDelay.Att_ShieldOnIdleRegenerationDelay"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName="")                                                                                                                                                                                                                                                                                                                                                                 
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_04/CDM_KotC_Passive04.CDM_KotC_Passive04,DamageSourceFilter,0,,((AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Damage/Att_DamageTakenMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/SkillTree/Passives/Passive_14/StatusEffect_KotC_14.StatusEffect_KotC_14:Mutator_OakPassiveAbilityAttributeEffectMutatorData'),(AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Shield/Att_ShieldOnIdleRegenerationDelay.Att_ShieldOnIdleRegenerationDelay"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName="")
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/KnightOfTheClaw/_Shared/_Design/ActionSkills/ActionSkill_03/Data/Damage_AS3_FireNova.Default__Damage_AS3_FireNova_C,bForceNoCrit,0,,false
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_SimpleFormulas.DataTable_KnightOfTheClaw_SimpleFormulas,AS3_FieryRedemption_HammerImpactDamageCalc,Scalar,0,,(BaseValueConstant=2,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute="",AttributeInitializer=None,BaseValueScale=1)
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/KnightOfTheClaw/DataTable_KnightOfTheClaw_SimpleFormulas.DataTable_KnightOfTheClaw_SimpleFormulas,As4_Hammer_ImpactDamageCalc,Scalar,0,,(BaseValueConstant=0.5,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute="",AttributeInitializer=None,BaseValueScale=1)
 
-##Spellshot
+# --- Spellshot ---
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/GunMage/DataTable_GunMage_ConstantValues.DataTable_GunMage_ConstantValues,SpellWeaving_SpellDamagePerStack,Value,0,,(BaseValueConstant=0.030000,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/GunMage/DataTable_GunMage_ConstantValues.DataTable_GunMage_ConstantValues,Passive8_BonusDamage,Value,0,,(BaseValueConstant=0.030000,DataTableValue=(DataTable=None,RowName="",ValueName="")))
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/GunMage/_Shared/_Design/SkillTree/Passives/Passive_27/Passive_Gunmage_09.Passive_GunMage_09,AttributeEffects.AttributeEffects[0].ModifierType,0,,PreAdd
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/GunMage/DataTable_GunMage_ConstantValues.DataTable_GunMage_ConstantValues,Passive9_Critchance,Value,0,,(BaseValueConstant=0.02000,DataTableValue=(DataTable=None,RowName="",ValueName="")))
 
-##Spore Warden
+# --- Spore Warden ---
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Ranger/DataTable_Ranger_Values.DataTable_Ranger_Values,Skill_Bow,Scalar_2_E7D5116F4F7E39AF3CFCD998360C5643,0,,0.36
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Ranger/DataTable_Ranger_Values.DataTable_Ranger_Values,Skill_Cryonado,Scalar_2_E7D5116F4F7E39AF3CFCD998360C5643,0,,0.08
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Ranger/DataTable_Ranger_Values.DataTable_Ranger_Values,Passive_02,Primary_8_7144784543D12C00F7A08182E7FDEE36,0,,0.03
@@ -67,13 +66,10 @@ SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Ranger/D
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Ranger/DataTable_Ranger_Values.DataTable_Ranger_Values,Passive_06,Secondary_11_84A2134543364C50EC79C68B17F4BBB5,0,,0.012
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Ranger/_Shared/_Design/SkillTree/Passives/Passive_06/SE_Ranger_06.SE_Ranger_06,AttributeEffects.AttributeEffects[0].ModifierType,0,,PreAdd
 
-##BrrZerker
-
+# --- BrrZerker ---
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,ActionSkill_NowWeSlass_Cooldown,Value,0,,(BaseValueConstant=22,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1)
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,ActionSkill_NowWeSlass_DamageRadius,Value,0,,(BaseValueConstant=5,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1)
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,ActionSkill_Whirlwind_Duration,Value,0,,(BaseValueConstant=10,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1)
-
-
 # Buffing Feral Surge
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,ActionSkill_NowWeSlass_Damage,Value,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,ActionSkill_NowWeSlass_DamageRadius,Value,0,,(BaseValueConstant=4500,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
@@ -82,124 +78,100 @@ SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbaria
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,Passive_14_MaxHealth,Value,0,,(BaseValueConstant=0.0600,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Barbarian/DataTable_Balance_Barbarian.DataTable_Balance_Barbarian,Passive_05_CloseDamageTaken,Value,0,,(BaseValueConstant=-0.06666,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 
-##Graveborn
+# --- Graveborn ---
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Necromancer/DataTable_Necromancer_Values.DataTable_Necromancer_Values,Skill_LichForm,Scalar_2_E7D5116F4F7E39AF3CFCD998360C5643,0,,0.4
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Necromancer/DataTable_Necromancer_Values.DataTable_Necromancer_Values,Passive_03,Secondary_11_84A2134543364C50EC79C68B17F4BBB5,0,,0.01
 SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/Necromancer/DataTable_Necromancer_Values.DataTable_Necromancer_Values,Passive_06,Primary_8_7144784543D12C00F7A08182E7FDEE36,0,,.75
 
-##Blightcaller
+# --- Blightcaller ---
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_10_CriticalHitChance,Value,0,,(BaseValueConstant=0.003,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/SkillTree/Passives/Passive_10/SE_Shaman_10.SE_Shaman_10,AttributeEffects.AttributeEffects[0].ModifierType,0,,PreAdd
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_09_Movespeed,Value,0,,(BaseValueConstant=0.02,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_06_DamageDealt,Value,0,,(BaseValueConstant=0.04,DataTableValue=(DataTable=None,RowName="",ValueName=""))
-SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_17_DamageMultiplier,Value,0,,(BaseValueConstant=0.125,DataTableValue=(DataTable=None,RowName="",ValueName=""))
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_17_DamageMultiplier,Value,0,,(BaseValueConstant=1,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_03_WardRestoration,Value,0,,(BaseValueConstant=0.03,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_12_MaxShield,Value,0,,(BaseValueConstant=0.25,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,Passive_12_MaxHealth,Value,0,,(BaseValueConstant=-1.002,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,ActionSkill_01_DamageStored,Value,0,,(BaseValueConstant=0.05,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Indigo4/PlayerCharacters/_Shared/_Design/Balance/DataTable_Balance_Shaman.DataTable_Balance_Shaman,ActionSkill_02_Damage,Value,0,,(BaseValueConstant=0.25,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 
-
-#StabboMancer
+# --- Stabbomancer ---
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/Skills/Feats/Rogue/SE_Feat_Rogue.SE_Feat_Rogue,AttributeEffects.AttributeEffects[0].ModifierType,0,,PreAdd
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/Skills/Feats/Rogue/SE_Feat_Rogue.SE_Feat_Rogue,AttributeEffects.AttributeEffects[0].BaseModifierValue,0,,(BaseValueConstant=0.03,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
-
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Rogue/_Shared/_Design/SkillTree/Passives/Passive_02/Passive_Rogue_02.Default__Passive_Rogue_02_C,AbilityDescription,0,,[skillbold]Critical Hit Damage[/skillbold] and [skillbold]Movement Speed[/skillbold] is increased.
-
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Rogue/_Shared/_Design/SkillTree/Passives/Passive_02/Passive_Rogue_02.Default__Passive_Rogue_02_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Critical Hit Damage:[/skillbold] $VALUE$[newline][skillbold]Movement Speed:[/skillbold] $VALUE$
-
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Rogue/_Shared/_Design/SkillTree/Passives/Passive_02/SE_Rogue_02.SE_Rogue_02,AttributeEffects,0,,((AttributeData=GbxAttributeData'/Game/GameData/Attributes/Critical/Damage/Att_CriticalHitDamage_All.Att_CriticalHitDamage_All',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'/Game/PlayerCharacters/Rogue/_Shared/_Design/SkillTree/Passives/Passive_02/SE_Rogue_02.SE_Rogue_02:Mutator_OakPassiveAbilityAttributeEffectMutatorData'),(AttributeData=GbxAttributeData'/Game/GameData/Attributes/Character/Att_GroundSpeedScale.Att_GroundSpeedScale',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer="",BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'/Game/PlayerCharacters/Rogue/_Shared/_Design/SkillTree/Passives/Passive_02/SE_Rogue_02.SE_Rogue_02:Mutator_OakPassiveAbilityAttributeEffectMutatorData'))
 SparkPatchEntry,(1,2,0,),Game/PlayerCharacters/_Shared/_Design/Balance/Rogue/DataTable_Balance_Rogue.DataTable_Balance_Rogue,Passive_05_DamageDealt,Value,0,,(BaseValueConstant=0.03,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 
 
-##Selective Amnesia no longer hurts as much I think
-SparkPatchEntry,(1,1,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/SelectiveAmnesia/Att_Calc_SelectiveAmnesia_SelfDamage.Att_Calc_SelectiveAmnesia_SelfDamage,((AttributeToModify=GbxAttributeData'"/Game/GameData/Balance/HealthAndDamage/Calc/Att_Calc_Damage_SkillsPlayer"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=.00008)))	
+######################################################################
+### 3. PLAYER / GLOBAL BALANCE
+######################################################################
 
-SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,HeadOfTheSnake,Primary_8_7144784543D12C00F7A08182E7FDEE36,0,,0.75
-
-SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Calamity,Primary_8_7144784543D12C00F7A08182E7FDEE36,0,,0.2
-
-SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/HealthBalanceScalers/DataTable_DamageAndHealthScalers.DataTable_DamageAndHealthScalers,Player_HealthBase,Scaler_4_FE2B037B42E1F6E76E3AEBAFDCC8DB86,0,,160
-
-
-
-
-#Better Blank Slate
-SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula,Primary_8_7144784543D12C00F7A08182E7FDEE36,0,,0.2
-SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula_AbilityScalars,Duration_4_991797B5420658C242A0EFAF04758565,0,,0.3
-SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula_AbilityScalars,Cooldown_25_3E22DCFF47514CF1F039088C917DEB34,0,,0.3
-SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula_AbilityScalars,Cooldown_25_3E22DCFF47514CF1F039088C917DEB34,0,,0.3
-SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula_AbilityScalars,Tertiary_14_E37033D045CF357045CCE0A20D6A91C2,0,,-0.3530
-SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Tabula_AbilityPresentation,Tertiary_14_E37033D045CF357045CCE0A20D6A91C2,0,,0.30
-
-# Pandemecium
-#Chance
-SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Pandemecium,Scalar_2_E7D5116F4F7E39AF3CFCD998360C5643,0,,0.25
-#Damage
-SparkPatchEntry,(1,2,0,),/Game/Gear/Pauldrons/_Shared/_Design/_Uniques/_Shared/DataTable_Armor_Uniques.DataTable_Armor_Uniques,Pandemecium,Primary_8_7144784543D12C00F7A08182E7FDEE36,0,,0.375
-
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/Character/BPChar_Player.Default__BPChar_Player_C,Att_SlideSpeedMultiplier,0,,(Value=1.33,BaseValue=1.33)
+# --- Global damage scalers ---
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerCompanionDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,10
 SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerClassModDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,1000
-SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/DataTable_SharedPlayer_SkillBalance.DataTable_SharedPlayer_SkillBalance,HeroStat_Wis,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.01
-SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Luck/DataTable_Luck_Base_LevelUp.DataTable_Luck_Base_LevelUp,BaseLuckFormula,InitialLuck_11_0B4875AB47A7171FF4FCC58060422ACA,0,,15
-SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Luck/DataTable_Luck_Base_LevelUp.DataTable_Luck_Base_LevelUp,BaseLuckFormula,IncreaseInitial_9_73B0E52041B13B21AF8C519EB1B55DCE,0,,6
-SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Luck/DataTable_Luck_Base_LevelUp.DataTable_Luck_Base_LevelUp,BaseLuckFormula,IncreaseDelta_10_4B84DEF6419475134B7D4591A7D7D2D4,0,,6
 
+# --- Health, slide speed, hero stats ---
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/HealthBalanceScalers/DataTable_DamageAndHealthScalers.DataTable_DamageAndHealthScalers,Player_HealthBase,Scaler_4_FE2B037B42E1F6E76E3AEBAFDCC8DB86,0,,160
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/_Design/Character/BPChar_Player.Default__BPChar_Player_C,Att_SlideSpeedMultiplier,0,,(Value=1.33,BaseValue=1.33)
+SparkPatchEntry,(1,2,0,),/Game/PlayerCharacters/_Shared/_Design/Balance/DataTable_SharedPlayer_SkillBalance.DataTable_SharedPlayer_SkillBalance,HeroStat_Wis,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.01
+
+# --- Mayhem ---
 # nerfing environmental damage by 75%
 SparkPatchEntry,(1,1,0,),/Game/GameData/Mayhem/StatusEffect/SE_Mayhem_Player_CoreModifier.SE_Mayhem_Player_CoreModifier,AttributeEffects,0,,((AttributeData=GbxAttributeData'"/Game/GameData/Balance/Experience/Att_PlayerExpScale_Combat.Att_PlayerExpScale_Combat"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=1.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Mayhem/Attributes/Att_Calc_Mayhem_Player_XPMultiplier.Att_Calc_Mayhem_Player_XPMultiplier,AttributeInitializer=None,BaseValueScale=1.0)),(AttributeData=GbxAttributeData'"/Game/Pickups/Money/Att_CashPickupMultiplier.Att_CashPickupMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=1.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Mayhem/Attributes/Att_Calc_Mayhem_Player_CashMultiplier.Att_Calc_Mayhem_Player_CashMultiplier,AttributeInitializer=None,BaseValueScale=1.0)),(AttributeData=GbxAttributeData'"/Game/Pickups/Eridium/Att_EGCPickupMultiplier.Att_EGCPickupMultiplier"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=1.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/GameData/Mayhem/Attributes/Att_Calc_Mayhem_Player_EGCMultiplier.Att_Calc_Mayhem_Player_EGCMultiplier,AttributeInitializer=None,BaseValueScale=1.0)),(AttributeData=GbxAttributeData'"/Game/GameData/Attributes/DamageMultipliers/Att_DamageSourceReceiverMultiplier_Environmental.Att_DamageSourceReceiverMultiplier_Environmental"',ModifierType=ScaleSimple,BaseModifierValue=(BaseValueConstant=0.25,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute="",AttributeInitializer=None,BaseValueScale=1.0)))
+SparkPatchEntry,(1,2,0,),/Game/GameData/Mayhem/Balance/Table_Mayhem_GlobalModifers.Table_Mayhem_GlobalModifers,CoreModifier_LuckScalar,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.06
 
-SparkPatchEntry,(1,2,0,),Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_SimpleFormulas.Table_EDAbilities_SimpleFormulas,FrozenPulse_Health_Calc,Multiplier,0,,(BaseValueConstant=0.025,DataTableValue=(DataTable=DataTable'/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues',RowName="FrozenPulse_Health",ValueName="Base_17_28B25EC8493D1EB6C2138A962F659BCD"),BaseValueAttribute="",AttributeInitializer=None,BaseValueScale=1)
+######################################################################
+### 4. ECONOMY
+######################################################################
 
-SparkPatchEntry,(1,2,0,),Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_SimpleFormulas.Table_EDAbilities_SimpleFormulas,DeathFromBeyond_Health_Calc,Multiplier,0,,(BaseValueConstant=0.25,DataTableValue=(DataTable=DataTable'/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues',RowName="DeathFromBeyond_Health",ValueName="Base_17_28B25EC8493D1EB6C2138A962F659BCD"),BaseValueAttribute="",AttributeInitializer=None,BaseValueScale=1)
-
+# --- Moon orbs ---
 #Double Moon Orb Capacity
 SparkPatchEntry,(1,2,0,),/Game/GameData/Economy/Economy_MoonOrbs.Economy_MoonOrbs,MoonOrbCurrencyCap,Value,0,,(BaseValueConstant=32000,DataTableValue=(DataTable=None,RowName="",ValueName=""))
 
-SparkPatchEntry,(1,2,0,),/Game/Gear/Amulets/_Shared/_Design/GameplayAttributes/Tables/DataTable_Amulets_Init.DataTable_Amulets_Init,StatusDamage,Multiplier,0,,(BaseValueConstant=0.0056115,BaseValueScale=1)
+######################################################################
+### 5. CHAOS DUNGEON
+######################################################################
 
+# --- Challenge class abilities ---
+SparkPatchEntry,(1,2,0,),Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_SimpleFormulas.Table_EDAbilities_SimpleFormulas,FrozenPulse_Health_Calc,Multiplier,0,,(BaseValueConstant=0.025,DataTableValue=(DataTable=DataTable'/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues',RowName="FrozenPulse_Health",ValueName="Base_17_28B25EC8493D1EB6C2138A962F659BCD"),BaseValueAttribute="",AttributeInitializer=None,BaseValueScale=1)
+SparkPatchEntry,(1,2,0,),Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_SimpleFormulas.Table_EDAbilities_SimpleFormulas,DeathFromBeyond_Health_Calc,Multiplier,0,,(BaseValueConstant=0.25,DataTableValue=(DataTable=DataTable'/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues',RowName="DeathFromBeyond_Health",ValueName="Base_17_28B25EC8493D1EB6C2138A962F659BCD"),BaseValueAttribute="",AttributeInitializer=None,BaseValueScale=1)
 
-
-
-# Elemental Infusion stuff 
+# --- Elemental Immersion (Elemental Infusion) ---
+# Elemental Infusion stuff
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues,ElementalInfusion_Chance_All,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.1
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues,ElementalInfusion_Chance,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.1
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues,ElementalInfusionDamageTaken,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.25
-
 # Ele breaker, nasty spill
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues,EleBreaker_Damage,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.1
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues,EleBreaker_NumberOfSplats_Normal,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,1
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues,EleBreaker_NumberOfSplats_Boss,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,1
-
 SparkLevelAddedToWorldEntry,(1,1,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/Enemy/EleBreaker/Splat_ED_EleBreaker_Cryo.Splat_ED_EleBreaker_Cryo,Duration,0,,2
 SparkLevelAddedToWorldEntry,(1,1,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/Enemy/EleBreaker/Splat_ED_EleBreaker_Fire.Splat_ED_EleBreaker_Fire,Duration,0,,2
 SparkLevelAddedToWorldEntry,(1,1,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/Enemy/EleBreaker/Splat_ED_EleBreaker_Poison.Splat_ED_EleBreaker_Poison,Duration,0,,2
 SparkLevelAddedToWorldEntry,(1,1,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/Enemy/EleBreaker/Splat_ED_EleBreaker_Shock.Splat_ED_EleBreaker_Shock,Duration,0,,2
-
 # title
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Dungeon/Tables/ED_Challenge.ED_Challenge,C13,UINameofChallenge_34_D8DF8904406D1F801F25A2913B8DB9F1,0,,[HARD] Elemental Immersion
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/UI/EndlessDungeon/DragonLordChallenge/UI_DC_EleInfuser_All.UI_DC_EleInfuser_All,Header,0,,[HARD] Elemental Immersion
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/UI/EndlessDungeon/UIData_Challenge/UIData_EleInfuser_All.UIData_EleInfuser_All,ActionText,0,,[HARD] Elemental Immersion
-
 # description
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/UI/EndlessDungeon/DragonLordChallenge/UI_DC_EleInfuser_All.UI_DC_EleInfuser_All,Body,0,,Enemies have a chance to be infused with partial elemental resistance. Infused enemies take 15% less damage from a randomly chosen element, and release a Nova when killed. [newline]The element will change each encounter.[newline]+120% Bonus Crystals[newline]+25% Crystal Drop Chance on Enemy Death
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Dungeon/Tables/ED_Challenge.ED_Challenge,C13,UIDescription_37_3162BBCF4046AF689B262A80611809C0,0,,Each room has a chance to infuse each enemy with partial elemental resistance. Infused enemies are take 75% less damage from a randomly chosen element, and release a Nova when killed. [newline]The element will change each encounter.[newline]+120% Bonus Crystals[newline]+25% Crystal Drop Chance on Enemy Death
 
-
+# --- Pack Rage (Rally) ---
 # break it up settings
-
 # title
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Dungeon/Tables/ED_Challenge.ED_Challenge,C19,UINameofChallenge_34_D8DF8904406D1F801F25A2913B8DB9F1,0,,[MEDIUM] Pack Rage
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/UI/EndlessDungeon/DragonLordChallenge/UI_DC_Rally.UI_DC_Rally,Header,0,,[MEDIUM] Pack Rage
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/UI/EndlessDungeon/UIData_Challenge/UIData_Rally.UIData_Rally,ActionText,0,,[MEDIUM] Pack Rage
-
 # description
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/UI/EndlessDungeon/DragonLordChallenge/UI_DC_Rally.UI_DC_Rally,Body,0,,Enemy Movement Speed and Fire Rate is increased by 35% while near other enemies.[newline]+60% Bonus Crystals[newline]+25% Crystal Drop Chance on Enemy Death
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Dungeon/Tables/ED_Challenge.ED_Challenge,C19,UIDescription_37_3162BBCF4046AF689B262A80611809C0,0,,Enemy Movement Speed and Fire Rate is increased 25% while near other enemies. <br><br>+60% Bonus Crystals<br>+25% Crystal Drop Chance on Enemy Death
-
 SparkLevelAddedToWorldEntry,(1,1,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/Enemy/Rally/SE_ED_Rally.SE_ED_Rally,AttributeEffects,0,,((AttributeData=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_FireRate.Att_Weapon_FireRate"',ModifierType=PostAdd,BaseModifierValue=(BaseValueConstant=0.35,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0)),(AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Character/Att_GroundSpeedScale.Att_GroundSpeedScale"',ModifierType=PostAdd,BaseModifierValue=(BaseValueConstant=0.35,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0)))
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/Enemy/Rally/SE_ED_Rally.SE_ED_Rally,AttributeEffects,0,,((AttributeData=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_FireRate.Att_Weapon_FireRate"',ModifierType=PostAdd,BaseModifierValue=(BaseValueConstant=0.35,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0)),(AttributeData=GbxAttributeData'"/Game/GameData/Attributes/Character/Att_GroundSpeedScale.Att_GroundSpeedScale"',ModifierType=PostAdd,BaseModifierValue=(BaseValueConstant=0.35,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0)))
 
-
+# --- Toothless (Critical Failure) ---
 # toothless settings
 # description
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/UI/EndlessDungeon/DragonLordChallenge/UI_DC_CritFail.UI_DC_CritFail,Body,0,,-50% Critical Hit Damage[newline]+120% Bonus Crystals[newline]+25% Crystal Drop Chance on Enemy Death
@@ -207,10 +179,22 @@ SparkPatchEntry,(1,1,0,),/Game/GameData/Dungeon/Tables/ED_Challenge.ED_Challenge
 # a higher number here, because you're putting in the damage the enemy will take, not what you will lose. so 75 = 25 less damage
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues,CriticalFailure_Resistance,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.25
 
+# --- Bulwark Buddies (Priority Target) ---
 # bulwark buddies info
 # description
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/UI/EndlessDungeon/DragonLordChallenge/UI_DC_PriorityTarget.UI_DC_PriorityTarget,Body,0,,Enemies may be supported by an Bulwark Buddy, which grants enemies +75% reduction to all incoming Damage until it is destroyed.[newline]+120% Bonus Crystals[newline]+25% Crystal Drop Chance on Enemy Death
 SparkPatchEntry,(1,1,0,),/Game/GameData/Dungeon/Tables/ED_Challenge.ED_Challenge,C18,UIDescription_37_3162BBCF4046AF689B262A80611809C0,0,,Enemies may be supported by an Bulwark Buddy, which grants enemies +50% reduction to all incoming Damage until it is destroyed.[newline]+120% Bonus Crystals[newline]+25% Crystal Drop Chance on Enemy Death
 # a higher number here, because you're putting in the damage the enemy will take, not what you will lose. so 75 = 25 less damage
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues,PriorityTarget_DamageTaken,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.65
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Dungeon/Classes/DC_Challenge/Abilities/_Shared/Balance/Table_EDAbilities_ConstantValues.Table_EDAbilities_ConstantValues,PriorityTarget_DamageTaken,Base_17_28B25EC8493D1EB6C2138A962F659BCD,0,,0.5
 
+########################################################################
+### PLAYER COUNT SCALING
+########################################################################
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/GameData/Balance/PlayerCountFormulas/DataTable_PlayerCountFormulas.DataTable_PlayerCountFormulas,ScaleBy25PercentPerAdditonalPlayer.OnePlayer_PT1.BaseValueConstant,0,,1.5
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/GameData/Balance/PlayerCountFormulas/DataTable_PlayerCountFormulas.DataTable_PlayerCountFormulas,ScaleBy25PercentPerAdditonalPlayer.TwoPlayers_PT1.BaseValueConstant,0,,1.875
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/GameData/Balance/PlayerCountFormulas/DataTable_PlayerCountFormulas.DataTable_PlayerCountFormulas,ScaleBy25PercentPerAdditonalPlayer.ThreePlayers_PT1.BaseValueConstant,0,,2.25
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/GameData/Balance/PlayerCountFormulas/DataTable_PlayerCountFormulas.DataTable_PlayerCountFormulas,ScaleBy25PercentPerAdditonalPlayer.FourPlayers_PT1.BaseValueConstant,0,,2.625
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/GameData/Balance/PlayerCountFormulas/DataTable_PlayerCountFormulas.DataTable_PlayerCountFormulas,ScaleBy25PercentPerAdditonalPlayer.OnePlayer_PT2.BaseValueConstant,0,,1.5
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/GameData/Balance/PlayerCountFormulas/DataTable_PlayerCountFormulas.DataTable_PlayerCountFormulas,ScaleBy25PercentPerAdditonalPlayer.TwoPlayers_PT2.BaseValueConstant,0,,1.875
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/GameData/Balance/PlayerCountFormulas/DataTable_PlayerCountFormulas.DataTable_PlayerCountFormulas,ScaleBy25PercentPerAdditonalPlayer.ThreePlayers_PT2.BaseValueConstant,0,,2.25
+SparkCharacterLoadedEntry,(1,1,0,MatchAll),/Game/GameData/Balance/PlayerCountFormulas/DataTable_PlayerCountFormulas.DataTable_PlayerCountFormulas,ScaleBy25PercentPerAdditonalPlayer.FourPlayers_PT2.BaseValueConstant,0,,2.625
