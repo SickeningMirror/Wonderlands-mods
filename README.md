@@ -154,6 +154,7 @@
 
 //DIFFICULTIES 1-3//    
 
+
 //CHUMS//
 
 --CHUMS DIFFICULTY 1--      
@@ -177,6 +178,7 @@
    
    Slip n Stun Amulet  
 
+
 //IMELDA//
 
 --IMELDA DIFFICULTY 1--      
@@ -198,6 +200,7 @@
    
    Barboload Amulet 
 
+
 //FYODOR//    
  
 --FYODOR DIFFICULTY 1--      
@@ -218,6 +221,7 @@
    Tyrant's Truth Armor 
    
    Greed Warden Melee   
+
    
 //REDMOURNE//
 
