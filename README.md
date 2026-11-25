@@ -3,25 +3,39 @@ Loot Changes
 Chaos Chamber only drops its legendaries (like the Blue Cake), Uniques, and DLC Legendaries.
 
 Ribula  
-   Boreas Breath SMG, Cursed Wit Shield, Kinetic Friction Shield
+   Boreas Breath SMG, 
+   Cursed Wit Shield, 
+   Kinetic Friction Shield
 
 Zomboss  
-   Last Gasp Shield, Undead Pact Shield, Spirit Rune Shield 
+   Last Gasp Shield, 
+   Undead Pact Shield, 
+   Spirit Rune Shield 
 
 Dry'l  
-   Dryls Fury Sniper, Storm Surge Melee, Master Rune Shield  
+   Dryls Fury Sniper, 
+   Storm Surge Melee, 
+   Master Rune Shield  
 
 Wastard  
-   White Rider SMG, Spell Blade Melee, Afterburner Shield 
+   White Rider SMG, 
+   Spell Blade Melee, 
+   Afterburner Shield 
 
 Knightmare  
-   Twin Soul Melee, Frenzied Amulet, Live Wire SMG 
+   Twin Soul Melee, 
+   Frenzied Amulet, 
+   Live Wire SMG 
 
 DragonLord 
-   Fatebreaker Melee, Corrupted Platemail Armor, Mind Rune Shield  
+   Fatebreaker Melee, 
+   Corrupted Platemail Armor, 
+   Mind Rune Shield  
 
 Parasite  
-   Pandemecium Armor, Wizards Pipe SMG, Iron Sides Sniper  
+   Pandemecium Armor, 
+   Wizards Pipe SMG, 
+   Iron Sides Sniper  
 
 Kastor  
    Warped Paradigm Armor, Crossbolt Gen AR, Quadbow AR 
