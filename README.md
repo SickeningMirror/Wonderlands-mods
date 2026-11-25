@@ -9,126 +9,126 @@
    
    Kinetic Friction Shield
 
---ZOMBOSS-- 
+--ZOMBOSS--  
    Last Gasp Shield 
    
    Undead Pact Shield
    
    Spirit Rune Shield 
 
---DRY'L-- 
+--DRY'L--  
    Dryls Fury Sniper
    
    Storm Surge Melee
    
    Master Rune Shield  
 
---WASTARD--  
+--WASTARD--   
    White Rider SMG
    
    Spell Blade Melee
    
    Afterburner Shield 
 
---KNIGHTMARE-- 
+--KNIGHTMARE--  
    Twin Soul Melee
    
    Frenzied Amulet
    
    Live Wire SMG 
 
---DRAGONLORD--
+--DRAGONLORD--  
    Fatebreaker Melee
    
    Corrupted Platemail Armor
    
    Mind Rune Shield  
 
---PARASITE--  
+--PARASITE--    
    Pandemecium Armor
    
    Wizards Pipe SMG
    
    Iron Sides Sniper  
 
---KASTOR--  
+--KASTOR--   
    Warped Paradigm Armor
    
    Crossbolt Gen AR
    
    Quadbow AR 
 
---SALISSA--  
+--SALISSA--   
    Thread Of Fate Spell
    
    Head Of The Snake Melee
    
    Harbinger Amulet
 
---DROLL THE TROLL-- 
+--DROLL THE TROLL--   
    Gluttony Pistol
    
    Donkey AR
    
    Frying Pan Melee 
 
---GREAT WIGHT--  
+--GREAT WIGHT--   
    Fish Melee
    
    Maced Wardu Shield
    
    Message Pistol  
 
---PIGWART--  
+--PIGWART--    
    Goblin Pickaxe Melee
    
    Barrelmaker Spell
    
    Thunder Anima AR  
 
---OBSIDIAN WYVERN--  
+--OBSIDIAN WYVERN--    
    Red Hellion Shotgun
    
    Claw Armor
    
    Skeep Prod Sniper
 
---LISSIA--  
+--LISSIA--    
    Liquid Cooling Pistol
    
    Thread Of Fate Spell
    
    Pincushion Amulet  
 
---SHARA-- 
+--SHARA--   
    Inflammation Spell
    
    Ancient Deity Shield
    
    Snake Stick Melee 
 
---OCULUS-- 
+--OCULUS--   
    Perceiver Pistol
    
    Calamity Armor
    
    Catatumbo Pistol 
 
---MANDIBLON--  
+--MANDIBLON--   
    Sacrificial Skeep Amulet
    
    Sworderang Shotgun
    
    Buffmeister Shield  
 
---DEATH RATTLER--  
+--DEATH RATTLER--     
    Deathless Mantle Armor
    
    Overflowing Bloodbag Amulet
    
    Sawblades Spell  
 
---WYBORG--   
+--WYBORG--      
    world drop legendary assault rifles
    
    world world legendary shields
