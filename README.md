@@ -202,7 +202,7 @@
 
 //Fyodor//
 
---Fyodor  difficulty 1 
+--Fyodor  difficulty 1
    Brand Fealty Ring 
    
    Stab-o-matic 
@@ -210,7 +210,7 @@
    Lovestruck Beau    
 
 --Fyodor  difficulty 2  
-   Fyodory's Ire Spell
+   Smithy's Ire Spell
    
    Pretty Tantrum  Melee
    
