@@ -3,99 +3,61 @@ Loot Changes
 Chaos Chamber only drops its legendaries (like the Blue Cake), Uniques, and DLC Legendaries.
 
 Ribula  
-   Boreas Breath SMG
-   Cursed Wit Shield
-   Kinetic Friction Shield
+   Boreas Breath SMG, Cursed Wit Shield, Kinetic Friction Shield
 
 Zomboss  
-   Last Gasp Shield
-   Undead Pact Shield 
-   Spirit Rune Shield 
+   Last Gasp Shield, Undead Pact Shield, Spirit Rune Shield 
 
 Dry'l  
-   Dryls Fury Sniper 
-   Storm Surge Melee  
-   Master Rune Shield  
+   Dryls Fury Sniper, Storm Surge Melee, Master Rune Shield  
 
 Wastard  
-   White Rider SMG  
-   SpellBlade Melee 
-   Afterburner Shield 
+   White Rider SMG, Spell Blade Melee, Afterburner Shield 
 
 Knightmare  
-   Twin Soul Melee
-   Frenzied Amulet 
-   Live Wire SMG 
+   Twin Soul Melee, Frenzied Amulet, Live Wire SMG 
 
 DragonLord 
-   Fatebreaker Melee 
-   Corrupted Platemail Armor 
-   Mind Rune Shield  
+   Fatebreaker Melee, Corrupted Platemail Armor, Mind Rune Shield  
 
 Parasite  
-   Pandemecium Armor 
-   Wizards Pipe SMG
-   Iron Sides Sniper  
+   Pandemecium Armor, Wizards Pipe SMG, Iron Sides Sniper  
 
 Kastor  
-   Warped Paradigm Armor   
-   Crossbolt Gen AR  
-   Quadbow AR 
+   Warped Paradigm Armor, Crossbolt Gen AR, Quadbow AR 
 
 Salissa  
-   Thread Of Fate Spell
-   Head Of The Snake Melee
-   Harbinger Amulet
+   Thread Of Fate Spell, Head Of The Snake Melee, Harbinger Amulet
 
 Droll the Troll  
-   Gluttony Pistol 
-   Donkey AR 
-   Frying Pan Melee 
+   Gluttony Pistol, Donkey AR, Frying Pan Melee 
 
 Great Wight  
-   Fish Melee 
-   Maced Wardu Shield 
-   Message Pistol  
+   Fish Melee, Maced Wardu Shield, Message Pistol  
 
 PigWart  
-   Goblin Pickaxe Melee 
-   Barrelmaker Spell  
-   Thunder Anima AR  
+   Goblin Pickaxe Melee, Barrelmaker Spell, Thunder Anima AR  
 
 Obsidian Wyvern  
-   Red Hellion Shotgun 
-   Claw Armor 
-   Skeep Prod  Sniper
+   Red Hellion Shotgun, Claw Armor, Skeep Prod Sniper
 
 Lissia  
-   Liquid Cooling Pistol
-   Thread Of Fate Spell 
-   Pincushion Amulet  
+   Liquid Cooling Pistol, Thread Of Fate Spell, Pincushion Amulet  
 
 Shara  
-   Inflammation Spell  
-   Ancient Deity Shield 
-   Snake Stick Melee 
+   Inflammation Spell, Ancient Deity Shield, Snake Stick Melee 
 
 Oculus  
-   Perceiver Pistol  
-   Calamity Armor
-   Catatumbo Pistol 
+   Perceiver Pistol, Calamity Armor, Catatumbo Pistol 
 
 Mandiblon  
-   Sacrificial Skeep Amulet  
-   Sworderang Shotgun 
-   Buffmeister Shield  
+   Sacrificial Skeep Amulet, Sworderang Shotgun, Buffmeister Shield  
 
 Death Rattler  
-   Deathless Mantle Armor 
-   Overflowing Bloodbag Amulet 
-   Sawblades Spell  
+   Deathless Mantle Armor, Overflowing Bloodbag Amulet, Sawblades Spell  
 
 Wyborg   
-   world drop legendary assault rifles)
-   world world legendary shields
-   world world legendary armor
+   world drop legendary assault rifles, world world legendary shields, world world legendary armor
 
 
 
