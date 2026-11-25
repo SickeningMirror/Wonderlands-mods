@@ -140,6 +140,7 @@
 //DLC BOSSES//
 
 //Pearls//
+
 --Chums difficulty 4  
    Twisted Delugeon Launcher 
 
@@ -157,7 +158,8 @@
 
 //Difficulties 1-3//
 
-//Chums;;
+//Chums//
+
 --Chums difficulty 1  
    LethalCatch Ring 
    
@@ -178,6 +180,7 @@
    Slip n Stun Amulet  
 
 //Imelda//
+
 --Imelda  difficulty 1  
    Jamstone Ring
    
@@ -198,6 +201,7 @@
    Barboload Amulet 
 
 //Fyodor//
+
 --Fyodor  difficulty 1 
    Brand Fealty Ring 
    
@@ -218,6 +222,7 @@
    Greed Warden Melee   
    
 //Redmourne//
+
 --Redmourne  difficulty 1  
    Vengeance AR
    
