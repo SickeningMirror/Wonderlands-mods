@@ -1,4 +1,5 @@
 --Loot Changes
+  
    Chaos Chamber only drops its legendaries (like the Blue Cake), Uniques, and DLC Legendaries.
 
 --Ribula  
