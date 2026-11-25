@@ -1,134 +1,134 @@
---Loot Changes
+--LOOT CHANGES--
   
    Chaos Chamber only drops its legendaries (like the Blue Cake), Uniques, and DLC Legendaries.
 
---Ribula  
+--RIBULA--  
    Boreas Breath SMG,
    
    Cursed Wit Shield,
    
    Kinetic Friction Shield
 
---Zomboss  
+--ZOMBOSS-- 
    Last Gasp Shield 
    
    Undead Pact Shield
    
    Spirit Rune Shield 
 
---Dry'l  
+--DRY'L-- 
    Dryls Fury Sniper
    
    Storm Surge Melee
    
    Master Rune Shield  
 
---Wastard  
+--WASTARD--  
    White Rider SMG
    
    Spell Blade Melee
    
    Afterburner Shield 
 
---Knightmare  
+--KNIGHTMARE-- 
    Twin Soul Melee
    
    Frenzied Amulet
    
    Live Wire SMG 
 
---DragonLord 
+--DRAGONLORD--
    Fatebreaker Melee
    
    Corrupted Platemail Armor
    
    Mind Rune Shield  
 
---Parasite  
+--PARASITE--  
    Pandemecium Armor
    
    Wizards Pipe SMG
    
    Iron Sides Sniper  
 
---Kastor  
+--KASTOR--  
    Warped Paradigm Armor
    
    Crossbolt Gen AR
    
    Quadbow AR 
 
---Salissa  
+--SALISSA--  
    Thread Of Fate Spell
    
    Head Of The Snake Melee
    
    Harbinger Amulet
 
---Droll the Troll  
+--DROLL THE TROLL-- 
    Gluttony Pistol
    
    Donkey AR
    
    Frying Pan Melee 
 
---Great Wight  
+--GREAT WIGHT--  
    Fish Melee
    
    Maced Wardu Shield
    
    Message Pistol  
 
---PigWart  
+--PIGWART--  
    Goblin Pickaxe Melee
    
    Barrelmaker Spell
    
    Thunder Anima AR  
 
---Obsidian Wyvern  
+--OBSIDIAN WYVERN--  
    Red Hellion Shotgun
    
    Claw Armor
    
    Skeep Prod Sniper
 
---Lissia  
+--LISSIA--  
    Liquid Cooling Pistol
    
    Thread Of Fate Spell
    
    Pincushion Amulet  
 
---Shara  
+--SHARA-- 
    Inflammation Spell
    
    Ancient Deity Shield
    
    Snake Stick Melee 
 
---Oculus  
+--OCULUS-- 
    Perceiver Pistol
    
    Calamity Armor
    
    Catatumbo Pistol 
 
---Mandiblon  
+--MANDIBLON--  
    Sacrificial Skeep Amulet
    
    Sworderang Shotgun
    
    Buffmeister Shield  
 
---Death Rattler  
+--DEATH RATTLER--  
    Deathless Mantle Armor
    
    Overflowing Bloodbag Amulet
    
    Sawblades Spell  
 
---Wyborg   
+--WYBORG--   
    world drop legendary assault rifles
    
    world world legendary shields
