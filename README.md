@@ -237,7 +237,7 @@
    
    Wicked Gossip Spell
 
---Redmourne difficulty 3 
+--Redmourne difficulty 3  
    Curse of Malice Spell 
    
    Mosquito's Mantle Armor 
