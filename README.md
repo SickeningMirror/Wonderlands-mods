@@ -139,103 +139,103 @@
 
 //DLC BOSSES//
 
-//PEARLS//
-
 --CHUMS DIFFICULTY 4--      
-   Twisted Delugeon Launcher 
+   Twisted Delugeon Launcher, Difficulty 1-3 legendaries 
 
 --IMELDA DIFFICULTY 4--    
-   Butterboom Pistol
+   Butterboom Pistol, Difficulty 1-3 legendaries
 
 --FYODOR DIFFICULTY 4--     
-   Echoing Phoenix AR
+   Echoing Phoenix AR, Difficulty 1-3 legendaries
 
 --REDMOURNE DIFFICULTY 4--    
-   Sly Trivern Sniper
+   Sly Trivern Sniper, Difficulty 1-3 legendaries
 
 
 //DIFFICULTIES 1-3//    
 
 //CHUMS//
 
---CHUMS DIFFICULTY 4--      
+--CHUMS DIFFICULTY 1--      
    LethalCatch Ring 
    
    DieVergent Shotgun 
    
    Dynamo Spell 
 
---Chums  difficulty 2  
+--CHUMS DIFFICULTY 2--      
    Tidebreaker Spell 
    
    Counterfeint Shield
    
    SharkBane Ring 
 
---Chums difficulty 3  
+--CHUMS DIFFICULTY 3--      
    Cape Of Tides Armor 
+   
    Rainbolt Spell
+   
    Slip n Stun Amulet  
 
-//Imelda//
+//IMELDA//
 
---Imelda  difficulty 1  
+--IMELDA DIFFICULTY 1--      
    Jamstone Ring
    
    Oil and Spice SMG 
    
    Boltlash Spell    
 
---Imelda  difficulty 2  
+--IMELDA DIFFICULTY 2--     
    Lichs Augur Ward 
    
    Salt and Battery Melee
    
    Garlic Breath Spell  
 
---Imelda difficulty 3  
+--IMELDA DIFFICULTY 3--      
    Miasmic Mail Armor 
    
    Barboload Amulet 
 
-//Fyodor//
-
---Fyodor  difficulty 1  
+//FYODOR//    
+ 
+--FYODOR DIFFICULTY 1--      
    Brand Fealty Ring 
    
    Stab-o-matic 
    
    Lovestruck Beau    
 
---Fyodor  difficulty 2  
+--FYODOR DIFFICULTY 2--     
    Smithy's Ire Spell
    
    Pretty Tantrum  Melee
    
    The Protagonizer Amulet
 
---Fyodor  difficulty 3  
+--FYODOR DIFFICULTY 3--      
    Tyrant's Truth Armor 
    
    Greed Warden Melee   
    
-//Redmourne//
+//REDMOURNE//
 
---Redmourne  difficulty 1  
+--REDMOURNE DIFFICULTY 1--      
    Vengeance AR
    
    Daemon Blight Ring 
    
    Rage Handle Melee
 
---Redmourne  difficulty 2  
+--REDMOURNE DIFFICULTY 2--       
    Brutal Stampede Armor 
    
    Merlins Razor Shotgun 
    
    Wicked Gossip Spell
 
---Redmourne difficulty 3  
+--REDMOURNE DIFFICULTY 3--       
    Curse of Malice Spell 
    
    Mosquito's Mantle Armor 
