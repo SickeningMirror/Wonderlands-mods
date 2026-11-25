@@ -3,8 +3,10 @@ Loot Changes
 Chaos Chamber only drops its legendaries (like the Blue Cake), Uniques, and DLC Legendaries.
 
 Ribula  
-   Boreas Breath SMG, 
-   Cursed Wit Shield, 
+   Boreas Breath SMG,
+   
+   Cursed Wit Shield,
+   
    Kinetic Friction Shield
 
 Zomboss  
