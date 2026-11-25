@@ -139,28 +139,26 @@
 
 //DLC BOSSES//
 
-//Pearls//
+//PEARLS//
 
---Chums difficulty 4  
+--CHUMS DIFFICULTY 4--      
    Twisted Delugeon Launcher 
 
---Imelda difficulty 4 
+--IMELDA DIFFICULTY 4--    
    Butterboom Pistol
 
-
---Fyodor difficulty 4 
+--FYODOR DIFFICULTY 4--     
    Echoing Phoenix AR
 
-
---Redmourne difficulty 4  
+--REDMOURNE DIFFICULTY 4--    
    Sly Trivern Sniper
 
 
-//Difficulties 1-3//
+//DIFFICULTIES 1-3//    
 
-//Chums//
+//CHUMS//
 
---Chums difficulty 1  
+--CHUMS DIFFICULTY 4--      
    LethalCatch Ring 
    
    DieVergent Shotgun 
