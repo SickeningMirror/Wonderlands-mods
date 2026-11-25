@@ -202,7 +202,7 @@
 
 //Fyodor//
 
---Fyodor  difficulty 1
+--Fyodor  difficulty 1  
    Brand Fealty Ring 
    
    Stab-o-matic 
